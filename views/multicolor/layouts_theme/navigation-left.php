@@ -1,8 +1,16 @@
 <?php
+/**
+ * navigation-left.php
+ *
+ * @copyright Copyright &copy; Pedro Plowman, https://github.com/p2made, 2015
+ * @author Pedro Plowman
+ * @package p2made/yii2-sb-admin-theme
+ * @license MIT
+ */
+
 use yii\helpers\Html;
 use yii\helpers\Url;
 use yii\bootstrap\Nav;
-
 ?>
 <section class="navbar-default sidebar" role="navigation">
 	<div class="sidebar-nav navbar-collapse">

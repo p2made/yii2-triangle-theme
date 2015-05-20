@@ -1,4 +1,13 @@
 <?php
+/**
+ * tables.php
+ *
+ * @copyright Copyright &copy; Pedro Plowman, https://github.com/p2made, 2015
+ * @author Pedro Plowman
+ * @package p2made/yii2-sb-admin-theme
+ * @license MIT
+ */
+
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 
@@ -11,7 +20,7 @@ $this->title = 'Tables';
 p2made\assets\MetisMenuAsset::register($this);
 p2made\assets\DataTablesAsset::register($this);
 p2made\theme\sbAdmin\web\SBAdmin2Asset::register($this);
-p2made\theme\sbAdmin\demo\DataTablesAsset::register($this);
+p2made\theme\sbAdmin\demo\DataTablesDemoAsset::register($this);
 ?>
 <div id="content-wrapper">
 	<div class="row">

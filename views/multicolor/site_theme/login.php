@@ -1,4 +1,13 @@
 <?php
+/**
+ * login.php
+ *
+ * @copyright Copyright &copy; Pedro Plowman, https://github.com/p2made, 2015
+ * @author Pedro Plowman
+ * @package p2made/yii2-sb-admin-theme
+ * @license MIT
+ */
+
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 
@@ -18,7 +27,6 @@ $fieldOptions2 = [
 	'inputTemplate' => "{input}<i class='glyphicon glyphicon-lock form-control-feedback'></i>",
 ];
 ?>
-
 <div class="sb-box">
 	<div class="sb-logo">
 		<?= Html::a('<b>P<sup>2</sup>SB</b> Admin v2.0', Yii::$app->homeUrl) ?>
