@@ -1,58 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="author" content="">
-	<title>404 Error | Triangle</title>
-	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
-	<link href="assets/css/font-awesome.min.css" rel="stylesheet">
-	<link href="assets/css/main.css" rel="stylesheet">
-	<link href="assets/css/responsive.css" rel="stylesheet">
+<?php
 
-	<!--[if lt IE 9]>
-		<script src="assets/js/html5shiv.js"></script>
-		<script src="assets/js/respond.min.js"></script>
-	<![endif]-->
-	<link rel="shortcut icon" href="assets/images/ico/favicon.ico">
-	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/images/ico/apple-touch-icon-144-precomposed.png">
-	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/images/ico/apple-touch-icon-114-precomposed.png">
-	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/ico/apple-touch-icon-72-precomposed.png">
-	<link rel="apple-touch-icon-precomposed" href="assets/images/ico/apple-touch-icon-57-precomposed.png">
-</head>
+use yii\helpers\Html;
 
-<body>
-	<section id="error-page">
-		<div class="error-page-inner">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-sm-12">
-						<div class="text-center">
-							<div class="bg-404">
-								<div class="error-image">
-									<img class="img-responsive" src="images/404.png" alt="">
-								</div>
-							</div>
-							<h2>PAGE NOT FOUND</h2>
-							<p>The page you are looking for might have been removed, had its name changed.</p>
-							<a href="index.php" class="btn btn-error">RETURN TO THE HOMEPAGE</a>
-							<div class="social-link">
-								<span><a href="#"><i class="fa fa-facebook"></i></a></span>
-								<span><a href="#"><i class="fa fa-twitter"></i></a></span>
-								<span><a href="#"><i class="fa fa-google-plus"></i></a></span>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+/* @var $this yii\web\View */
+/* @var $name string */
+/* @var $message string */
+/* @var $exception Exception */
 
+$this->title = $name;
+?>
+<div class="site-error">
 
-	<script type="text/javascript" src="assets/js/jquery.js"></script>
-	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="assets/js/wow.min.js"></script>
-	<script type="text/javascript" src="assets/js/main.js"></script>
-</body>
-</html>
+	<h1><?= Html::encode($this->title) ?></h1>
+
+	<div class="alert alert-danger">
+		<?= nl2br(Html::encode($message)) ?>
+	</div>
+
+	<p>
+		The above error occurred while the Web server was processing your request.
+	</p>
+	<p>
+		Please contact us if you think this is a server error. Thank you.
+	</p>
+
+</div>

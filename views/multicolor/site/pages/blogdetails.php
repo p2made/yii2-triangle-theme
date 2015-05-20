@@ -178,7 +178,7 @@
 										<li class="media">
 											<div class="post-comment">
 												<a class="pull-left" href="#">
-													<img class="media-object" src="images/blogdetails/2.png" alt="">
+													<img class="media-object" src="assets/images/blogdetails/2.png" alt="">
 												</a>
 												<div class="media-body">
 													<span><i class="fa fa-user"></i>Posted by <a href="#">Endure</a></span>
@@ -193,7 +193,7 @@
 												<ul class="media-list">
 													<li class="post-comment reply">
 														<a class="pull-left" href="#">
-															<img class="media-object" src="images/blogdetails/3.png" alt="">
+															<img class="media-object" src="assets/images/blogdetails/3.png" alt="">
 														</a>
 														<div class="media-body">
 															<span><i class="fa fa-user"></i>Posted by <a href="#">Endure</a></span>
@@ -209,7 +209,7 @@
 										<li class="media">
 											<div class="post-comment">
 												<a class="pull-left" href="#">
-													<img class="media-object" src="images/blogdetails/4.png" alt="">
+													<img class="media-object" src="assets/images/blogdetails/4.png" alt="">
 												</a>
 												<div class="media-body">
 													<span><i class="fa fa-user"></i>Posted by <a href="#">Endure</a></span>
