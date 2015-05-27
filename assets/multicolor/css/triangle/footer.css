@@ -1,0 +1,148 @@
+/* ***** ^ ***** ^ ***** ^ ***** ^ ***** ^ ***** *
+ * ***** ^ *****      #Footer      ***** ^ ***** *
+ * ***** ^ ***** ^ ***** ^ ***** ^ ***** ^ ***** */
+
+#footer
+{
+	padding-bottom: 10px;
+	background-image: url(../img/footer.png);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	background-size: contain;
+}
+
+#footer h1
+{
+	margin-bottom: 65px;
+	margin-top: 36px;
+}
+
+#footer .bottom-separator { margin-bottom: 60px; }
+
+#message
+{
+	height: 110px;
+	resize: none;
+}
+
+.bottom > h2
+{
+	margin-top: 0;
+	margin-bottom: 26px;
+}
+
+.bottom .media-body h3
+{
+	margin-top: 0;
+	padding-left: 25px;
+}
+
+.bottom .media-body h3 a { color: #ea2c00; }
+
+.testimonial .media
+{
+	margin-top: 0;
+	margin-bottom: 25px;
+}
+
+.testimonial .media>.pull-left { margin-right: 25px; }
+.testimonial .media>.pull-left img { margin-top: 6px; }
+
+.testimonial .media .media-body blockquote
+{
+	padding-left: 25px;
+	padding-right: 30px;
+	position: relative;
+	border-left: 0;
+	margin-bottom: 0;
+}
+
+.testimonial .media .media-body blockquote:before
+{
+	position: absolute;
+	left: 5px;
+	top: 8px;
+	content: '"';
+	font-size: 40px;
+	color: #ea2c00;
+	font-family: 'Noto Sans', sans-serif;
+	transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	/* IE 9 */
+	-webkit-transform: rotate(180deg);
+	/* Opera, Chrome, and Safari */
+	line-height: 0;
+}
+
+.testimonial .media .media-body blockquote:after
+{
+	position: absolute;
+	right: 30px;
+	bottom: 14px;
+	content: '"';
+	font-size: 40px;
+	color: #ea2c00;
+	font-family: 'Noto Sans', sans-serif;
+	line-height: 0;
+}
+
+.contact-info.bottom { padding-left: 25px; }
+
+.bottom > address
+{
+	line-height: 22px;
+	margin-bottom: 40px;
+}
+
+.form-control
+{
+	border: 1px solid #eaeaea;
+	font-weight: 300;
+	outline: none;
+	box-shadow: none;
+	height: 40px;
+}
+
+.form-control:hover,
+.form-control:focus
+{
+	border-color: #4fcccd;
+	outline: none;
+	box-shadow: none;
+}
+
+.btn-submit
+{
+	width: 100%;
+	background-color: #4fcccd;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 300;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	border-radius: 3px;
+	margin-top: 5px;
+	border-bottom: 3px solid #2f9697;
+	box-shadow: none;
+	padding: 10px;
+}
+
+.btn-submit:hover,
+.btn-submit:focus
+{
+	color: #fff;
+	outline: none;
+	box-shadow: none;
+	opacity: .8;
+}
+
+.copyright-text
+{
+	margin-top: 70px;
+	color: #fff;
+	font-size: 16px;
+	padding-bottom: 15px;
+}
+
+.copyright-text a { color: #3e848a; }
+.copyright-text p { margin-bottom: 0; }

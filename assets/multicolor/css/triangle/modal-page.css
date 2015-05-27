@@ -1,0 +1,122 @@
+/* ***** ^ ***** ^ ***** ^ ***** ^ ***** ^ ***** *
+ * *****        Error & Modal Pages        ***** *
+ * ***** ^ ***** ^ ***** ^ ***** ^ ***** ^ ***** */
+
+#error-page
+{
+	display: table;
+	height: 100%;
+	min-height: 100%;
+	width: 100%;
+	color: #686868;
+	font-size: 18px;
+	font-weight: 300;
+	padding: 100px 0;
+}
+
+#error-page .container-fluid { overflow: hidden; }
+
+.error-page-inner
+{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.bg-404
+{
+	background-image: url("../img/bg/light-1.png");
+	background-repeat: repeat-x;
+	background-position: center top;
+}
+
+.error-image
+{
+	display: inline-block;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.error-image img { width: 100%; }
+
+#error-page h2
+{
+	font-size: 36px;
+	text-transform: uppercase;
+}
+
+.btn-error
+{
+	background-color: rgba(0, 0, 0, 0);
+	border: 3px solid #4FCCCD;
+	color: #797979;
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: 0;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	padding: 25px 53px;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.btn-error:hover, .btn-error:focus
+{
+	background-color: #4FCCCD;
+	border-color: #4FCCCD;
+	color: #fff;
+}
+
+#error-page i, #coming-soon i
+{
+	border: 3px solid #cecece;
+	height: 40px;
+	width: 40px;
+	line-height: 35px;
+	color: #cecece;
+	font-size: 17px;
+	margin: 0 15px;
+	border-radius: 50%;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+#error-page i.fa-twitter:hover,
+#coming-soon i.fa-twitter:hover,
+#error-page i.fa-twitter:hover,
+#coming-soon i.fa-twitter:hover,
+#error-page i.fa-google-plus:hover,
+#coming-soon i.fa-google-plus:hover
+{
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+#error-page i.fa-facebook:hover,
+#coming-soon i.fa-facebook:hover
+{
+	background-color: transparent;
+	color: #314A87;
+	border-color: #314A87;
+}
+
+#error-page i.fa-twitter:hover,
+#coming-soon i.fa-twitter:hover
+{
+	background-color: transparent;
+	color: #22BBF4;
+	border-color: #22BBF4;
+}
+
+#error-page i.fa-google-plus:hover,
+#coming-soon i.fa-google-plus:hover
+{
+	background-color: transparent;
+	color: #DD4C3B;
+	border-color: #DD4C3B;
+}

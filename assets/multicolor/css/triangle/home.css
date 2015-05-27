@@ -1,0 +1,209 @@
+/* ***** ^ ***** ^ ***** ^ ***** ^ ***** ^ ***** *
+ * ***** ^ *****     Home Page     ***** ^ ***** *
+ * ***** ^ ***** ^ ***** ^ ***** ^ ***** ^ ***** */
+
+#home-slider
+{
+	background: url(../img/bg/slider.png) 0 100% repeat-x;
+	position: relative;
+}
+
+#home-slider .main-slider
+{
+	position: relative;
+	height: 450px;
+}
+
+#home-slider .slide-text
+{
+	position: absolute;
+	top: 50px;
+	left: 0;
+	width: 450px;
+}
+
+.animate-in .slide-text
+{
+	-webkit-animation: fadeInLeftBig 700ms cubic-bezier(0.190,1.000,0.220,1.000) 200ms both;
+	animation: fadeInLeftBig 700ms cubic-bezier(0.190,1.000,0.220,1.000) 200ms both;
+}
+
+#home-slider .slider-hill
+{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.animate-in .slider-hill
+{
+	-webkit-animation: bounceInDown 1000ms ease-in-out 200ms both;
+	animation: bounceInDown 1000ms ease-in-out 200ms both;
+}
+
+#home-slider .slider-house
+{
+	position: absolute;
+	right: 110px;
+	bottom: -30px;
+}
+
+.animate-in .slider-house
+{
+	-webkit-animation: bounceInDown 500ms ease-in-out 800ms both;
+	animation: bounceInDown 500ms ease-in-out 800ms both;
+}
+
+#home-slider .slider-sun
+{
+	position: absolute;
+	right: 365px;
+	bottom: 100px;
+}
+
+.animate-in .slider-sun
+{
+	-webkit-animation: scaleIn 500ms ease-in-out 1200ms both;
+	animation: scaleIn 500ms ease-in-out 1200ms both;
+}
+
+#home-slider .slider-birds1
+{
+	position: absolute;
+	right: 470px;
+	bottom: 75px;
+}
+
+.animate-in .slider-birds1
+{
+	-webkit-animation: fadeInLeft 500ms ease-in-out 1200ms both;
+	animation: fadeInLeft 500ms ease-in-out 1200ms both;
+}
+
+#home-slider .slider-birds2
+{
+	position: absolute;
+	right: 40px;
+	bottom: 150px;
+}
+
+.animate-in .slider-birds2
+{
+	-webkit-animation: fadeInRight 500ms ease-in-out 1200ms both;
+	animation: fadeInRight 500ms ease-in-out 1200ms both;
+}
+
+#home-slider h1
+{
+	margin-top: 100px;
+	margin-bottom: 25px;
+}
+
+#home-slider .btn-common { margin-top: 20px; }
+
+#home-slider .preloader
+{
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: -30px;
+	right: 0;
+	background: #fafafa;
+	text-align: center;
+}
+
+#home-slider .preloader > i
+{
+	font-size: 48px;
+	height: 48px;
+	line-height: 48px;
+	color: #00aeef;
+	position: absolute;
+	left: 50%;
+	margin-left: -24px;
+	top: 50%;
+	margin-top: -24px;
+}
+
+#action
+{
+	background-image: url(../img/bg/light-2.png);
+	background-color: #fbfafa;
+	background-repeat: repeat-x;
+	height: 157px;
+	background-position: center;
+	display: table;
+	position: static;
+	width: 100%;
+}
+
+.vertical-center
+{
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	position: statice;
+}
+
+.single-service
+{
+	overflow: hidden;
+	display: block;
+}
+
+.single-service img { margin-bottom: 35px; }
+.single-service .fold { margin-bottom: 35px; }
+
+.single-service h2
+{
+	margin-top: 0;
+	margin-bottom: 15px;
+}
+
+.single-service p { padding: 0 48px; }
+.action h1 { margin-top: 0; }
+
+.action p
+{
+	font-size: 18px;
+	margin-bottom: 0;
+	font-weight: 300;
+}
+
+.action .btn-common
+{
+	margin-top: 55px;
+	float: left;
+}
+
+.title
+{
+	color: #404040;
+	font-weight: 300;
+}
+
+.single-features
+{
+	overflow: hidden;
+	padding-top: 65px;
+	padding-bottom: 40px;
+}
+
+.single-features .col-sm-6 { margin-top: 50px; }
+
+.single-features:last-child
+{
+	padding-bottom: 95px;
+	padding-top: 0;
+}
+
+.single-features h2 { margin-bottom: 15px; }
+#clients { padding-bottom: 45px; }
+.clients { margin-bottom: 45px; }
+.clients img { display: inline-block; }
+
+.clients-logo
+{
+	overflow: hidden;
+	margin-bottom: 10px;
+}

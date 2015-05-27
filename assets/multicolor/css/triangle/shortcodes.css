@@ -1,0 +1,32 @@
+/*Shortcodes CSS*/
+.bs-example { margin: 0 0 20px; }
+.panel-group { border: 1px solid #eee; }
+.panel-default { border: 0; }
+.panel-group .panel { border-radius: 0; }
+.panel-group .panel+.panel { margin-top: 0; }
+
+.panel-default>.panel-heading
+{
+	background-color: transparent;
+	border-top: 1px solid #eee;
+}
+
+.panel-group .panel-default:first-child>.panel-heading { border-top: 0; }
+.panel-default>.panel-heading+.panel-collapse .panel-body { border-top-color: #eee; }
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus { background-color: #4FCCCD; }
+.tab-content { padding-top: 20px; }
+
+/*Features*/
+.feature-inner { text-align: center; }
+
+.icon-wrapper
+{
+	display: inline-block;
+	background-color: #4FCCCD;
+	color: #fff;
+	padding: 25px;
+	box-shadow: 0 0 0 5px rgba(0,0,0,.1) inset;
+	-webkit-box-shadow: 0 0 0 5px rgba(0,0,0,.1) inset;
+	border-radius: 100%;
+	margin: 10px 0;
+}

@@ -52,7 +52,7 @@
 					</button>
 
 					<a class="navbar-brand" href="index.php">
-						<h1><img src="assets/images/logo.png" alt="logo"></h1>
+						<h1><img src="assets/logo.png" alt="logo"></h1>
 					</a>
 
 				</div>
@@ -127,7 +127,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-6">
-					<img src="assets/images/aboutus/1.png" class="img-responsive" alt="">
+					<img src="/images/aboutus/1.png" class="img-responsive" alt="">
 				</div>
 				<div class="col-sm-6 padding-top">
 					<p>Shoulder bresaola sausage consequat ground round duis excepteur exercitation landjaeger sunt. Duis officia sed frankfurter dolore pastrami tenderloin.</p>
@@ -143,7 +143,7 @@
 				<div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
 					<div class="single-service">
 						<div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
-							<img src="assets/images/home/icon1.png" alt="">
+							<img src="assets/home/icon1.png" alt="">
 						</div>
 						<h2>Incredibly Responsive</h2>
 						<p>Ground round tenderloin flank shank ribeye. Hamkevin meatball swine. Cow shankle beef sirloin chicken ground round.</p>
@@ -152,7 +152,7 @@
 				<div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
 					<div class="single-service">
 						<div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
-							<img src="assets/images/home/icon2.png" alt="">
+							<img src="assets/home/icon2.png" alt="">
 						</div>
 						<h2>Superior Typography</h2>
 						<p>Hamburger ribeye drumstick turkey, strip steak sausage ground round shank pastrami beef brisket pancetta venison.</p>
@@ -161,7 +161,7 @@
 				<div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
 					<div class="single-service">
 						<div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
-							<img src="assets/images/home/icon3.png" alt="">
+							<img src="assets/home/icon3.png" alt="">
 						</div>
 						<h2>Swift Page Builder</h2>
 						<p>Venison tongue, salami corned beef ball tip meatloaf bacon. Fatback pork belly bresaola tenderloin bone pork kevin shankle.</p>
@@ -212,7 +212,7 @@
 								<div class="team-single-wrapper">
 									<div class="team-single">
 										<div class="person-thumb">
-											<img src="assets/images/aboutus/1.jpg" class="img-responsive" alt="">
+											<img src="/images/aboutus/1.jpg" class="img-responsive" alt="">
 										</div>
 										<div class="social-profile">
 											<ul class="nav nav-pills">
@@ -232,7 +232,7 @@
 								<div class="team-single-wrapper">
 									<div class="team-single">
 										<div class="person-thumb">
-											<img src="assets/images/aboutus/2.jpg" class="img-responsive" alt="">
+											<img src="/images/aboutus/2.jpg" class="img-responsive" alt="">
 										</div>
 										<div class="social-profile">
 											<ul class="nav nav-pills">
@@ -252,7 +252,7 @@
 								<div class="team-single-wrapper">
 									<div class="team-single">
 										<div class="person-thumb">
-											<img src="assets/images/aboutus/3.jpg" class="img-responsive" alt="">
+											<img src="/images/aboutus/3.jpg" class="img-responsive" alt="">
 										</div>
 										<div class="social-profile">
 											<ul class="nav nav-pills">
@@ -272,7 +272,7 @@
 								<div class="team-single-wrapper">
 									<div class="team-single">
 										<div class="person-thumb">
-											<img src="assets/images/aboutus/1.jpg" class="img-responsive" alt="">
+											<img src="/images/aboutus/1.jpg" class="img-responsive" alt="">
 										</div>
 										<div class="social-profile">
 											<ul class="nav nav-pills">
@@ -294,7 +294,7 @@
 								<div class="team-single-wrapper">
 									<div class="team-single">
 										<div class="person-thumb">
-											<img src="assets/images/aboutus/4.jpg" class="img-responsive" alt="">
+											<img src="/images/aboutus/4.jpg" class="img-responsive" alt="">
 										</div>
 										<div class="social-profile">
 											<ul class="nav nav-pills">
@@ -314,7 +314,7 @@
 								<div class="team-single-wrapper">
 									<div class="team-single">
 										<div class="person-thumb">
-											<img src="assets/images/aboutus/3.jpg" class="img-responsive" alt="">
+											<img src="/images/aboutus/3.jpg" class="img-responsive" alt="">
 										</div>
 										<div class="social-profile">
 											<ul class="nav nav-pills">
@@ -334,7 +334,7 @@
 								<div class="team-single-wrapper">
 									<div class="team-single">
 										<div class="person-thumb">
-											<img src="assets/images/aboutus/2.jpg" class="img-responsive" alt="">
+											<img src="/images/aboutus/2.jpg" class="img-responsive" alt="">
 										</div>
 										<div class="social-profile">
 											<ul class="nav nav-pills">
@@ -354,7 +354,7 @@
 								<div class="team-single-wrapper">
 									<div class="team-single">
 										<div class="person-thumb">
-											<img src="assets/images/aboutus/1.jpg" class="img-responsive" alt="">
+											<img src="/images/aboutus/1.jpg" class="img-responsive" alt="">
 										</div>
 										<div class="social-profile">
 											<ul class="nav nav-pills">
@@ -386,14 +386,14 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12 text-center bottom-separator">
-					<img src="assets/images/home/under.png" class="img-responsive inline" alt="">
+					<img src="assets/home/under.png" class="img-responsive inline" alt="">
 				</div>
 				<div class="col-md-4 col-sm-6">
 					<div class="testimonial bottom">
 						<h2>Testimonial</h2>
 						<div class="media">
 							<div class="pull-left">
-								<a href="#"><img src="assets/images/home/profile1.png" alt=""></a>
+								<a href="#"><img src="assets/home/profile1.png" alt=""></a>
 							</div>
 							<div class="media-body">
 								<blockquote>Nisi commodo bresaola, leberkas venison eiusmod bacon occaecat labore tail.</blockquote>
@@ -402,7 +402,7 @@
 						 </div>
 						<div class="media">
 							<div class="pull-left">
-								<a href="#"><img src="assets/images/home/profile2.png" alt=""></a>
+								<a href="#"><img src="assets/home/profile2.png" alt=""></a>
 							</div>
 							<div class="media-body">
 								<blockquote>Capicola nisi flank sed minim sunt aliqua rump pancetta leberkas venison eiusmod.</blockquote>

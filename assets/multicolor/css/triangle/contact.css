@@ -1,0 +1,65 @@
+/* ***** ^ ***** ^ ***** ^ ***** ^ ***** ^ ***** *
+ * ***** ^ *****    Contact Us     ***** ^ ***** *
+ * ***** ^ ***** ^ ***** ^ ***** ^ ***** ^ ***** */
+
+#map-section
+{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	position: relative;
+}
+
+#gmap { height: 350px; }
+
+.get-in-touch img
+{
+	margin-top: 35px;
+	margin-bottom: 32px;
+}
+
+.get-in-touch p
+{
+	font-size: 18px;
+	font-weight: 300;
+}
+
+#map-section .contact-info
+{
+	position: absolute;
+	background-color: #7c3651;
+	right: 0;
+	top: 0;
+	width: 33%;
+	height: 100%;
+	padding: 25px 50px;
+	opacity: 0.9;
+	color: #fff;
+}
+
+#map-section .contact-info h2,
+#map-section .contact-info a { color: #fff; }
+#map-section address a:hover { color: #00AEEF; }
+#contact-form #message { resize: none; }
+
+#contact-form .btn-submit
+{
+	width: 28%;
+	margin: 5px auto;
+}
+
+.corporate-info .corporate-address
+{
+	background-image: url("../img/bg/contact.png");
+	background-position: left top;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	padding-bottom: 50px;
+}
+
+.corporate-info .corporate-address address
+{
+	background-image: url("../img/icon-map.png");
+	background-position: left top;
+	background-repeat: no-repeat;
+	padding-left: 40px;
+}

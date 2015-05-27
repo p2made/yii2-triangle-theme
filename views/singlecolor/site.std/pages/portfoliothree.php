@@ -52,7 +52,7 @@
 					</button>
 
 					<a class="navbar-brand" href="index.php">
-						<h1><img src="assets/images/logo.png" alt="logo"></h1>
+						<h1><img src="assets/logo.png" alt="logo"></h1>
 					</a>
 
 				</div>
@@ -142,7 +142,7 @@
 						<div class="portfolio-wrapper">
 							<div class="portfolio-single">
 								<div class="portfolio-thumb">
-									<img src="assets/images/portfolio/17.jpg" class="img-responsive" alt="">
+									<img src="/images/portfolio/17.jpg" class="img-responsive" alt="">
 								</div>
 								<div class="portfolio-view">
 									<ul class="nav nav-pills">
@@ -160,7 +160,7 @@
 						<div class="portfolio-wrapper">
 							<div class="portfolio-single">
 								<div class="portfolio-thumb">
-									<img src="assets/images/portfolio/18.jpg" class="img-responsive" alt="">
+									<img src="/images/portfolio/18.jpg" class="img-responsive" alt="">
 								</div>
 								<div class="portfolio-view">
 									<ul class="nav nav-pills">
@@ -178,7 +178,7 @@
 						<div class="portfolio-wrapper">
 							<div class="portfolio-single">
 								<div class="portfolio-thumb">
-									<img src="assets/images/portfolio/19.jpg" class="img-responsive" alt="">
+									<img src="/images/portfolio/19.jpg" class="img-responsive" alt="">
 								</div>
 								<div class="portfolio-view">
 									<ul class="nav nav-pills">
@@ -196,7 +196,7 @@
 						<div class="portfolio-wrapper">
 							<div class="portfolio-single">
 								<div class="portfolio-thumb">
-									<img src="assets/images/portfolio/20.jpg" class="img-responsive" alt="">
+									<img src="/images/portfolio/20.jpg" class="img-responsive" alt="">
 								</div>
 								<div class="portfolio-view">
 									<ul class="nav nav-pills">
@@ -214,7 +214,7 @@
 						<div class="portfolio-wrapper">
 							<div class="portfolio-single">
 								<div class="portfolio-thumb">
-									<img src="assets/images/portfolio/21.jpg" class="img-responsive" alt="">
+									<img src="/images/portfolio/21.jpg" class="img-responsive" alt="">
 								</div>
 								<div class="portfolio-view">
 									<ul class="nav nav-pills">
@@ -232,7 +232,7 @@
 						<div class="portfolio-wrapper">
 							<div class="portfolio-single">
 								<div class="portfolio-thumb">
-									<img src="assets/images/portfolio/22.jpg" class="img-responsive" alt="">
+									<img src="/images/portfolio/22.jpg" class="img-responsive" alt="">
 								</div>
 								<div class="portfolio-view">
 									<ul class="nav nav-pills">
@@ -250,7 +250,7 @@
 						<div class="portfolio-wrapper">
 							<div class="portfolio-single">
 								<div class="portfolio-thumb">
-									<img src="assets/images/portfolio/23.jpg" class="img-responsive" alt="">
+									<img src="/images/portfolio/23.jpg" class="img-responsive" alt="">
 								</div>
 								<div class="portfolio-view">
 									<ul class="nav nav-pills">
@@ -268,7 +268,7 @@
 						<div class="portfolio-wrapper">
 							<div class="portfolio-single">
 								<div class="portfolio-thumb">
-									<img src="assets/images/portfolio/24.jpg" class="img-responsive" alt="">
+									<img src="/images/portfolio/24.jpg" class="img-responsive" alt="">
 								</div>
 								<div class="portfolio-view">
 									<ul class="nav nav-pills">
@@ -308,14 +308,14 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12 text-center bottom-separator">
-					<img src="assets/images/home/under.png" class="img-responsive inline" alt="">
+					<img src="assets/home/under.png" class="img-responsive inline" alt="">
 				</div>
 				<div class="col-md-4 col-sm-6">
 					<div class="testimonial bottom">
 						<h2>Testimonial</h2>
 						<div class="media">
 							<div class="pull-left">
-								<a href="#"><img src="assets/images/home/profile1.png" alt=""></a>
+								<a href="#"><img src="assets/home/profile1.png" alt=""></a>
 							</div>
 							<div class="media-body">
 								<blockquote>Nisi commodo bresaola, leberkas venison eiusmod bacon occaecat labore tail.</blockquote>
@@ -324,7 +324,7 @@
 						 </div>
 						<div class="media">
 							<div class="pull-left">
-								<a href="#"><img src="assets/images/home/profile2.png" alt=""></a>
+								<a href="#"><img src="assets/home/profile2.png" alt=""></a>
 							</div>
 							<div class="media-body">
 								<blockquote>Capicola nisi flank sed minim sunt aliqua rump pancetta leberkas venison eiusmod.</blockquote>

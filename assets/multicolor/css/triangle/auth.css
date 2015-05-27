@@ -1,0 +1,6 @@
+/* ***** ^ ***** ^ ***** ^ ***** ^ ***** ^ ***** *
+ * ***** ^ *****    Auth Pages     ***** ^ ***** *
+ * ***** ^ ***** ^ ***** ^ ***** ^ ***** ^ ***** */
+
+#auth .panel, #auth .panel { background: #eee; }
+.social-auth-links { margin: 10px 0; }

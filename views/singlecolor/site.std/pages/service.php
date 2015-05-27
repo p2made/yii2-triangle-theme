@@ -52,7 +52,7 @@
 					</button>
 
 					<a class="navbar-brand" href="index.php">
-						<h1><img src="assets/images/logo.png" alt="logo"></h1>
+						<h1><img src="assets/logo.png" alt="logo"></h1>
 					</a>
 
 				</div>
@@ -127,7 +127,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0ms">
-					<img src="assets/images/services/4.png" class="img-responsive" alt="">
+					<img src="/images/services/4.png" class="img-responsive" alt="">
 				</div>
 				<div class="col-sm-6 padding-top wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0ms">
 					<h2>Why Choose Us?</h2>
@@ -151,7 +151,7 @@
 				<div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
 					<div class="single-service">
 						<div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
-							<img src="assets/images/home/icon1.png" alt="">
+							<img src="assets/home/icon1.png" alt="">
 						</div>
 						<h2>Incredibly Responsive</h2>
 						<p>Ground round tenderloin flank shank ribeye. Hamkevin meatball swine. Cow shankle beef sirloin chicken ground round.</p>
@@ -160,7 +160,7 @@
 				<div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
 					<div class="single-service">
 						<div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
-							<img src="assets/images/home/icon2.png" alt="">
+							<img src="assets/home/icon2.png" alt="">
 						</div>
 						<h2>Superior Typography</h2>
 						<p>Hamburger ribeye drumstick turkey, strip steak sausage ground round shank pastrami beef brisket pancetta venison.</p>
@@ -169,7 +169,7 @@
 				<div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
 					<div class="single-service">
 						<div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
-							<img src="assets/images/home/icon3.png" alt="">
+							<img src="assets/home/icon3.png" alt="">
 						</div>
 						<h2>Swift Page Builder</h2>
 						<p>Venison tongue, salami corned beef ball tip meatloaf bacon. Fatback pork belly bresaola tenderloin bone pork kevin shankle.</p>
@@ -179,7 +179,7 @@
 				<div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
 					<div class="single-service">
 						<div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
-							<img src="assets/images/services/1.png" alt="">
+							<img src="/images/services/1.png" alt="">
 						</div>
 						<h2>Incredibly Responsive</h2>
 						<p>Ground round tenderloin flank shank ribeye. Hamkevin meatball swine. Cow shankle beef sirloin chicken ground round.</p>
@@ -188,7 +188,7 @@
 				<div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
 					<div class="single-service">
 						<div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
-							<img src="assets/images/services/2.png" alt="">
+							<img src="/images/services/2.png" alt="">
 						</div>
 						<h2>Superior Typography</h2>
 						<p>Hamburger ribeye drumstick turkey, strip steak sausage ground round shank pastrami beef brisket pancetta venison.</p>
@@ -197,7 +197,7 @@
 				<div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
 					<div class="single-service">
 						<div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
-							<img src="assets/images/services/3.png" alt="">
+							<img src="/images/services/3.png" alt="">
 						</div>
 						<h2>Swift Page Builder</h2>
 						<p>Venison tongue, salami corned beef ball tip meatloaf bacon. Fatback pork belly bresaola tenderloin bone pork kevin shankle.</p>
@@ -239,7 +239,7 @@
 					<div class="portfolio-wrapper">
 						<div class="portfolio-single">
 							<div class="portfolio-thumb">
-								<img src="assets/images/portfolio/1.jpg" class="img-responsive" alt="">
+								<img src="/images/portfolio/1.jpg" class="img-responsive" alt="">
 							</div>
 							<div class="portfolio-view">
 								<ul class="nav nav-pills">
@@ -256,7 +256,7 @@
 					<div class="portfolio-wrapper">
 						<div class="portfolio-single">
 							<div class="portfolio-thumb">
-								<img src="assets/images/portfolio/2.jpg" class="img-responsive" alt="">
+								<img src="/images/portfolio/2.jpg" class="img-responsive" alt="">
 							</div>
 							<div class="portfolio-view">
 								<ul class="nav nav-pills">
@@ -273,7 +273,7 @@
 					<div class="portfolio-wrapper">
 						<div class="portfolio-single">
 							<div class="portfolio-thumb">
-								<img src="assets/images/portfolio/3.jpg" class="img-responsive" alt="">
+								<img src="/images/portfolio/3.jpg" class="img-responsive" alt="">
 							</div>
 							<div class="portfolio-view">
 								<ul class="nav nav-pills">
@@ -290,7 +290,7 @@
 					<div class="portfolio-wrapper">
 						<div class="portfolio-single">
 							<div class="portfolio-thumb">
-								<img src="assets/images/portfolio/4.jpg" class="img-responsive" alt="">
+								<img src="/images/portfolio/4.jpg" class="img-responsive" alt="">
 							</div>
 							<div class="portfolio-view">
 								<ul class="nav nav-pills">
@@ -307,7 +307,7 @@
 					<div class="portfolio-wrapper">
 						<div class="portfolio-single">
 							<div class="portfolio-thumb">
-								<img src="assets/images/portfolio/5.jpg" class="img-responsive" alt="">
+								<img src="/images/portfolio/5.jpg" class="img-responsive" alt="">
 							</div>
 							<div class="portfolio-view">
 								<ul class="nav nav-pills">
@@ -324,7 +324,7 @@
 					<div class="portfolio-wrapper">
 						<div class="portfolio-single">
 							<div class="portfolio-thumb">
-								<img src="assets/images/portfolio/6.jpg" class="img-responsive" alt="">
+								<img src="/images/portfolio/6.jpg" class="img-responsive" alt="">
 							</div>
 							<div class="portfolio-view">
 								<ul class="nav nav-pills">
@@ -341,7 +341,7 @@
 					<div class="portfolio-wrapper">
 						<div class="portfolio-single">
 							<div class="portfolio-thumb">
-								<img src="assets/images/portfolio/7.jpg" class="img-responsive" alt="">
+								<img src="/images/portfolio/7.jpg" class="img-responsive" alt="">
 							</div>
 							<div class="portfolio-view">
 								<ul class="nav nav-pills">
@@ -358,7 +358,7 @@
 					<div class="portfolio-wrapper">
 						<div class="portfolio-single">
 							<div class="portfolio-thumb">
-								<img src="assets/images/portfolio/8.jpg" class="img-responsive" alt="">
+								<img src="/images/portfolio/8.jpg" class="img-responsive" alt="">
 							</div>
 							<div class="portfolio-view">
 								<ul class="nav nav-pills">
@@ -381,28 +381,28 @@
 			<div class="row">
 				<div class="col-sm-12">
 					<div class="clients text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
-						<p><img src="assets/images/home/clients.png" class="img-responsive" alt=""></p>
+						<p><img src="assets/home/clients.png" class="img-responsive" alt=""></p>
 						<h1 class="title">Happy Clients</h1>
 						<p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br> Ut enim ad minim veniam, quis nostrud </p>
 					</div>
 					<div class="clients-logo wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
 						<div class="col-xs-3 col-sm-2">
-							<a href="#"><img src="assets/images/home/client1.png" class="img-responsive" alt=""></a>
+							<a href="#"><img src="assets/home/client1.png" class="img-responsive" alt=""></a>
 						</div>
 						<div class="col-xs-3 col-sm-2">
-							<a href="#"><img src="assets/images/home/client2.png" class="img-responsive" alt=""></a>
+							<a href="#"><img src="assets/home/client2.png" class="img-responsive" alt=""></a>
 						</div>
 						 <div class="col-xs-3 col-sm-2">
-							<a href="#"><img src="assets/images/home/client3.png" class="img-responsive" alt=""></a>
+							<a href="#"><img src="assets/home/client3.png" class="img-responsive" alt=""></a>
 						</div>
 						 <div class="col-xs-3 col-sm-2">
-							<a href="#"><img src="assets/images/home/client4.png" class="img-responsive" alt=""></a>
+							<a href="#"><img src="assets/home/client4.png" class="img-responsive" alt=""></a>
 						</div>
 						 <div class="col-xs-3 col-sm-2">
-							<a href="#"><img src="assets/images/home/client5.png" class="img-responsive" alt=""></a>
+							<a href="#"><img src="assets/home/client5.png" class="img-responsive" alt=""></a>
 						</div>
 						 <div class="col-xs-3 col-sm-2">
-							<a href="#"><img src="assets/images/home/client6.png" class="img-responsive" alt=""></a>
+							<a href="#"><img src="assets/home/client6.png" class="img-responsive" alt=""></a>
 						</div>
 					</div>
 				</div>
@@ -416,14 +416,14 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12 text-center bottom-separator">
-					<img src="assets/images/home/under.png" class="img-responsive inline" alt="">
+					<img src="assets/home/under.png" class="img-responsive inline" alt="">
 				</div>
 				<div class="col-md-4 col-sm-6">
 					<div class="testimonial bottom">
 						<h2>Testimonial</h2>
 						<div class="media">
 							<div class="pull-left">
-								<a href="#"><img src="assets/images/home/profile1.png" alt=""></a>
+								<a href="#"><img src="assets/home/profile1.png" alt=""></a>
 							</div>
 							<div class="media-body">
 								<blockquote>Nisi commodo bresaola, leberkas venison eiusmod bacon occaecat labore tail.</blockquote>
@@ -432,7 +432,7 @@
 						 </div>
 						<div class="media">
 							<div class="pull-left">
-								<a href="#"><img src="assets/images/home/profile2.png" alt=""></a>
+								<a href="#"><img src="assets/home/profile2.png" alt=""></a>
 							</div>
 							<div class="media-body">
 								<blockquote>Capicola nisi flank sed minim sunt aliqua rump pancetta leberkas venison eiusmod.</blockquote>

@@ -55,7 +55,7 @@
 					</button>
 
 					<a class="navbar-brand" href="index.php">
-						<h1><img src="assets/images/logo.png" alt="logo"></h1>
+						<h1><img src="assets/logo.png" alt="logo"></h1>
 					</a>
 
 				</div>
@@ -135,7 +135,7 @@
 						 <div class="col-md-12 col-sm-12">
 							<div class="single-blog blog-details two-column">
 								<div class="post-thumb">
-									<a href="#"><img src="assets/images/blog/7.jpg" class="img-responsive" alt=""></a>
+									<a href="#"><img src="/images/blog/7.jpg" class="img-responsive" alt=""></a>
 									<div class="post-overlay">
 										<span class="uppercase"><a href="#">14 <br><small>Feb</small></a></span>
 									</div>
@@ -163,7 +163,7 @@
 									<div class="author-profile padding">
 										<div class="row">
 											<div class="col-sm-2">
-												<img src="assets/images/blogdetails/1.png" alt="">
+												<img src="assets/blogdetails/1.png" alt="">
 											</div>
 											<div class="col-sm-10">
 												<h3>Rodrix Hasel</h3>
@@ -235,7 +235,7 @@
 							<h3>Comments</h3>
 							<div class="media">
 								<div class="pull-left">
-									<a href="#"><img src="assets/images/portfolio/project1.jpg" alt=""></a>
+									<a href="#"><img src="/images/portfolio/project1.jpg" alt=""></a>
 								</div>
 								<div class="media-body">
 									<h4><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit,</a></h4>
@@ -244,7 +244,7 @@
 							</div>
 							<div class="media">
 								<div class="pull-left">
-									<a href="#"><img src="assets/images/portfolio/project2.jpg" alt=""></a>
+									<a href="#"><img src="/images/portfolio/project2.jpg" alt=""></a>
 								</div>
 								<div class="media-body">
 									<h4><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit,</a></h4>
@@ -253,7 +253,7 @@
 							</div>
 							<div class="media">
 								<div class="pull-left">
-									<a href="#"><img src="assets/images/portfolio/project3.jpg" alt=""></a>
+									<a href="#"><img src="/images/portfolio/project3.jpg" alt=""></a>
 								</div>
 								<div class="media-body">
 									<h4><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit,</a></h4>
@@ -278,7 +278,7 @@
 							<h3>Tag Cloud</h3>
 							<ul class="nav nav-pills">
 								<li><a href="#">Corporate</a></li>
-								<li><a href="#">Joomla</a></li>
+								<li><a href="#">Yii 2</a></li>
 								<li><a href="#">Abstract</a></li>
 								<li><a href="#">Creative</a></li>
 								<li><a href="#">Business</a></li>
@@ -288,12 +288,12 @@
 						<div class="sidebar-item popular">
 							<h3>Latest Photos</h3>
 							<ul class="gallery">
-								<li><a href="#"><img src="assets/images/portfolio/popular1.jpg" alt=""></a></li>
-								<li><a href="#"><img src="assets/images/portfolio/popular2.jpg" alt=""></a></li>
-								<li><a href="#"><img src="assets/images/portfolio/popular3.jpg" alt=""></a></li>
-								<li><a href="#"><img src="assets/images/portfolio/popular4.jpg" alt=""></a></li>
-								<li><a href="#"><img src="assets/images/portfolio/popular5.jpg" alt=""></a></li>
-								<li><a href="#"><img src="assets/images/portfolio/popular1.jpg" alt=""></a></li>
+								<li><a href="#"><img src="/images/portfolio/popular1.jpg" alt=""></a></li>
+								<li><a href="#"><img src="/images/portfolio/popular2.jpg" alt=""></a></li>
+								<li><a href="#"><img src="/images/portfolio/popular3.jpg" alt=""></a></li>
+								<li><a href="#"><img src="/images/portfolio/popular4.jpg" alt=""></a></li>
+								<li><a href="#"><img src="/images/portfolio/popular5.jpg" alt=""></a></li>
+								<li><a href="#"><img src="/images/portfolio/popular1.jpg" alt=""></a></li>
 							</ul>
 						</div>
 					</div>
@@ -307,14 +307,14 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12 text-center bottom-separator">
-					<img src="assets/images/home/under.png" class="img-responsive inline" alt="">
+					<img src="assets/home/under.png" class="img-responsive inline" alt="">
 				</div>
 				<div class="col-md-4 col-sm-6">
 					<div class="testimonial bottom">
 						<h2>Testimonial</h2>
 						<div class="media">
 							<div class="pull-left">
-								<a href="#"><img src="assets/images/home/profile1.png" alt=""></a>
+								<a href="#"><img src="assets/home/profile1.png" alt=""></a>
 							</div>
 							<div class="media-body">
 								<blockquote>Nisi commodo bresaola, leberkas venison eiusmod bacon occaecat labore tail.</blockquote>
@@ -323,7 +323,7 @@
 						 </div>
 						<div class="media">
 							<div class="pull-left">
-								<a href="#"><img src="assets/images/home/profile2.png" alt=""></a>
+								<a href="#"><img src="assets/home/profile2.png" alt=""></a>
 							</div>
 							<div class="media-body">
 								<blockquote>Capicola nisi flank sed minim sunt aliqua rump pancetta leberkas venison eiusmod.</blockquote>

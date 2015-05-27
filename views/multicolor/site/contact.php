@@ -1,13 +1,31 @@
 <?php
+/**
+ * about.php
+ *
+ * @copyright Copyright &copy; Pedro Plowman, https://github.com/p2made, 2015
+ * @author Pedro Plowman
+ * @package p2made/yii2-triangle-theme
+ * @license MIT
+ */
+
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
-use yii\captcha\Captcha;
+//use yii\captcha\Captcha;
 
 /* @var $this yii\web\View */
 /* @var $form yii\bootstrap\ActiveForm */
 /* @var $model \frontend\models\ContactForm */
 
+// load assets...
+p2made\theme\Triangle\assets\TriangleOpenAsset::register($this);
+
+p2made\theme\Triangle\assets\LightboxAsset::register($this);
+p2made\theme\Triangle\assets\TriangleMulticolorAsset::register($this);
+
+p2made\theme\Triangle\assets\TriangleCloseAsset::register($this);
+
 $this->title = 'Contact';
+$tagline = 'Why our Clients love to work with us.';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="site-contact">

@@ -1,0 +1,47 @@
+/**
+ * responsive.css
+ *
+ * @copyright Copyright &copy; Pedro Plowman, https://github.com/p2made, 2015
+ * @author Pedro Plowman
+ * @package p2made/yii2-triangle-theme
+ * @license MIT
+ *
+ * based on Triangle from ShapeBootstrap - http://shapebootstrap.net
+ */
+
+@media only screen and (min-width : 768px) {
+	@import url(responsive/screen-min-768.css);
+}
+
+/*md only*/
+@media (min-width: 992px) and (max-width: 1199px) {
+	.col-md-4.portfolio-item{
+		width: 33%;
+	}
+}
+
+/*sm only*/
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-sm-4.portfolio-item{
+		width: 33%;
+	}
+}
+
+/* md */
+@media only screen and (max-width : 1200px) {
+	@import url(responsive/screen-max-1200.css);
+}
+
+/* sm */
+@media only screen and (max-width : 992px) {
+	@import url(responsive/screen-max-992.css);
+}
+
+/* xs */
+@media only screen and (max-width : 768px) {
+	@import url(responsive/screen-max-768.css);
+}
+
+@media only screen and (max-width : 480px) {
+	@import url(responsive/screen-max-480.css);
+}

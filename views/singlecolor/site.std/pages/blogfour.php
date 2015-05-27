@@ -52,7 +52,7 @@
 					</button>
 
 					<a class="navbar-brand" href="index.php">
-						<h1><img src="assets/images/logo.png" alt="logo"></h1>
+						<h1><img src="assets/logo.png" alt="logo"></h1>
 					</a>
 
 				</div>
@@ -130,7 +130,7 @@
 					<div class="col-md-3 col-sm-4">
 						<div class="single-blog two-column">
 							<div class="post-thumb">
-								<a href="blogdetails.php"><img src="assets/images/blog/masonary/1.jpg" class="img-responsive" alt=""></a>
+								<a href="blogdetails.php"><img src="/images/blog/masonary/1.jpg" class="img-responsive" alt=""></a>
 								<div class="post-overlay">
 									<span class="uppercase"><a href="#">14 <br><small>Feb</small></a></span>
 								</div>
@@ -155,7 +155,7 @@
 					<div class="col-md-3 col-sm-4">
 						<div class="single-blog two-column">
 							<div class="post-thumb">
-								<audio src="audio/juicy.mp3" preload="auto"></audio>
+								<audio src="/audio/the_flame.mp3" preload="auto"></audio>
 							</div>
 							<div class="post-content overflow">
 								<ul class="nav nav-justified post-nav">
@@ -178,7 +178,7 @@
 					<div class="col-md-3 col-sm-4">
 						<div class="single-blog two-column">
 							<div class="post-thumb">
-								<a href="blogdetails.php"><img src="assets/images/blog/masonary/6.jpg" class="img-responsive" alt=""></a>
+								<a href="blogdetails.php"><img src="/images/blog/masonary/6.jpg" class="img-responsive" alt=""></a>
 								<div class="post-overlay">
 									<span class="uppercase"><a href="#">14 <br><small>Feb</small></a></span>
 								</div>
@@ -203,7 +203,7 @@
 					<div class="col-md-3 col-sm-4">
 						<div class="single-blog two-column">
 							<div class="post-thumb">
-								<a href="blogdetails.php"><img src="assets/images/blog/masonary/8.jpg" class="img-responsive" alt=""></a>
+								<a href="blogdetails.php"><img src="/images/blog/masonary/8.jpg" class="img-responsive" alt=""></a>
 								<div class="post-overlay">
 									<span class="uppercase"><a href="#">14 <br><small>Feb</small></a></span>
 								</div>
@@ -228,7 +228,7 @@
 					<div class="col-md-3 col-sm-4">
 						<div class="single-blog two-column">
 							<div class="post-thumb">
-								<a href="blogdetails.php"><img src="assets/images/blog/masonary/4.jpg" class="img-responsive" alt=""></a>
+								<a href="blogdetails.php"><img src="/images/blog/masonary/4.jpg" class="img-responsive" alt=""></a>
 								<div class="post-overlay">
 									<span class="uppercase"><a href="#">14 <br><small>Feb</small></a></span>
 								</div>
@@ -253,7 +253,7 @@
 					<div class="col-md-3 col-sm-4">
 						<div class="single-blog two-column">
 							<div class="post-thumb">
-								<audio src="audio/juicy.mp3" preload="auto"></audio>
+								<audio src="/audio/the_flame.mp3" preload="auto"></audio>
 							</div>
 							<div class="post-content overflow">
 								<ul class="nav nav-justified post-nav">
@@ -276,7 +276,7 @@
 					<div class="col-md-3 col-sm-4">
 						<div class="single-blog two-column">
 							<div class="post-thumb">
-								<a href="blogdetails.php"><img src="assets/images/blog/masonary/2.jpg" class="img-responsive" alt=""></a>
+								<a href="blogdetails.php"><img src="/images/blog/masonary/2.jpg" class="img-responsive" alt=""></a>
 								<div class="post-overlay">
 									<span class="uppercase"><a href="#">14 <br><small>Feb</small></a></span>
 								</div>
@@ -301,7 +301,7 @@
 					<div class="col-md-3 col-sm-4">
 						<div class="single-blog two-column">
 							<div class="post-thumb">
-								<a href="blogdetails.php"><img src="assets/images/blog/masonary/10.jpg" class="img-responsive" alt=""></a>
+								<a href="blogdetails.php"><img src="/images/blog/masonary/10.jpg" class="img-responsive" alt=""></a>
 								<div class="post-overlay">
 									<span class="uppercase"><a href="#">14 <br><small>Feb</small></a></span>
 								</div>
@@ -326,7 +326,7 @@
 					<div class="col-md-3 col-sm-4">
 						<div class="single-blog two-column">
 							<div class="post-thumb">
-								<a href="blogdetails.php"><img src="assets/images/blog/masonary/7.jpg" class="img-responsive" alt=""></a>
+								<a href="blogdetails.php"><img src="/images/blog/masonary/7.jpg" class="img-responsive" alt=""></a>
 								<div class="post-overlay">
 									<span class="uppercase"><a href="#">14 <br><small>Feb</small></a></span>
 								</div>
@@ -351,7 +351,7 @@
 					<div class="col-md-3 col-sm-4">
 						<div class="single-blog two-column">
 							<div class="post-thumb">
-								<a href="blogdetails.php"><img src="assets/images/blog/masonary/5.jpg" class="img-responsive" alt=""></a>
+								<a href="blogdetails.php"><img src="/images/blog/masonary/5.jpg" class="img-responsive" alt=""></a>
 								<div class="post-overlay">
 									<span class="uppercase"><a href="#">14 <br><small>Feb</small></a></span>
 								</div>
@@ -376,7 +376,7 @@
 					<div class="col-md-3 col-sm-4">
 						<div class="single-blog two-column">
 							<div class="post-thumb">
-								<a href="blogdetails.php"><img src="assets/images/blog/masonary/9.jpg" class="img-responsive" alt=""></a>
+								<a href="blogdetails.php"><img src="/images/blog/masonary/9.jpg" class="img-responsive" alt=""></a>
 								<div class="post-overlay">
 									<span class="uppercase"><a href="#">14 <br><small>Feb</small></a></span>
 								</div>
@@ -408,14 +408,14 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12 text-center bottom-separator">
-					<img src="assets/images/home/under.png" class="img-responsive inline" alt="">
+					<img src="assets/home/under.png" class="img-responsive inline" alt="">
 				</div>
 				<div class="col-md-4 col-sm-6">
 					<div class="testimonial bottom">
 						<h2>Testimonial</h2>
 						<div class="media">
 							<div class="pull-left">
-								<a href="#"><img src="assets/images/home/profile1.png" alt=""></a>
+								<a href="#"><img src="assets/home/profile1.png" alt=""></a>
 							</div>
 							<div class="media-body">
 								<blockquote>Nisi commodo bresaola, leberkas venison eiusmod bacon occaecat labore tail.</blockquote>
@@ -424,7 +424,7 @@
 						 </div>
 						<div class="media">
 							<div class="pull-left">
-								<a href="#"><img src="assets/images/home/profile2.png" alt=""></a>
+								<a href="#"><img src="assets/home/profile2.png" alt=""></a>
 							</div>
 							<div class="media-body">
 								<blockquote>Capicola nisi flank sed minim sunt aliqua rump pancetta leberkas venison eiusmod.</blockquote>

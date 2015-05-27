@@ -52,7 +52,7 @@
 					</button>
 
 					<a class="navbar-brand" href="index.php">
-						<h1><img src="assets/images/logo.png" alt="logo"></h1>
+						<h1><img src="assets/logo.png" alt="logo"></h1>
 					</a>
 
 				</div>
@@ -142,7 +142,7 @@
 						<div class="portfolio-wrapper">
 							<div class="portfolio-single">
 								<div class="portfolio-thumb">
-									<img src="assets/images/portfolio/1.jpg" class="img-responsive" alt="">
+									<img src="/images/portfolio/1.jpg" class="img-responsive" alt="">
 								</div>
 								<div class="portfolio-view">
 									<ul class="nav nav-pills">
@@ -160,7 +160,7 @@
 						<div class="portfolio-wrapper">
 							<div class="portfolio-single">
 								<div class="portfolio-thumb">
-									<img src="assets/images/portfolio/2.jpg" class="img-responsive" alt="">
+									<img src="/images/portfolio/2.jpg" class="img-responsive" alt="">
 								</div>
 								<div class="portfolio-view">
 									<ul class="nav nav-pills">
@@ -178,7 +178,7 @@
 						<div class="portfolio-wrapper">
 							<div class="portfolio-single">
 								<div class="portfolio-thumb">
-									<img src="assets/images/portfolio/3.jpg" class="img-responsive" alt="">
+									<img src="/images/portfolio/3.jpg" class="img-responsive" alt="">
 								</div>
 								<div class="portfolio-view">
 									<ul class="nav nav-pills">
@@ -196,7 +196,7 @@
 						<div class="portfolio-wrapper">
 							<div class="portfolio-single">
 								<div class="portfolio-thumb">
-									<img src="assets/images/portfolio/4.jpg" class="img-responsive" alt="">
+									<img src="/images/portfolio/4.jpg" class="img-responsive" alt="">
 								</div>
 								<div class="portfolio-view">
 									<ul class="nav nav-pills">
@@ -214,7 +214,7 @@
 						<div class="portfolio-wrapper">
 							<div class="portfolio-single">
 								<div class="portfolio-thumb">
-									<img src="assets/images/portfolio/5.jpg" class="img-responsive" alt="">
+									<img src="/images/portfolio/5.jpg" class="img-responsive" alt="">
 								</div>
 								<div class="portfolio-view">
 									<ul class="nav nav-pills">
@@ -232,7 +232,7 @@
 						<div class="portfolio-wrapper">
 							<div class="portfolio-single">
 								<div class="portfolio-thumb">
-									<img src="assets/images/portfolio/6.jpg" class="img-responsive" alt="">
+									<img src="/images/portfolio/6.jpg" class="img-responsive" alt="">
 								</div>
 								<div class="portfolio-view">
 									<ul class="nav nav-pills">
@@ -250,7 +250,7 @@
 						<div class="portfolio-wrapper">
 							<div class="portfolio-single">
 								<div class="portfolio-thumb">
-									<img src="assets/images/portfolio/7.jpg" class="img-responsive" alt="">
+									<img src="/images/portfolio/7.jpg" class="img-responsive" alt="">
 								</div>
 								<div class="portfolio-view">
 									<ul class="nav nav-pills">
@@ -268,7 +268,7 @@
 						<div class="portfolio-wrapper">
 							<div class="portfolio-single">
 								<div class="portfolio-thumb">
-									<img src="assets/images/portfolio/8.jpg" class="img-responsive" alt="">
+									<img src="/images/portfolio/8.jpg" class="img-responsive" alt="">
 								</div>
 								<div class="portfolio-view">
 									<ul class="nav nav-pills">
@@ -286,7 +286,7 @@
 						<div class="portfolio-wrapper">
 							<div class="portfolio-single">
 								<div class="portfolio-thumb">
-									<img src="assets/images/portfolio/9.jpg" class="img-responsive" alt="">
+									<img src="/images/portfolio/9.jpg" class="img-responsive" alt="">
 								</div>
 								<div class="portfolio-view">
 									<ul class="nav nav-pills">
@@ -304,7 +304,7 @@
 						<div class="portfolio-wrapper">
 							<div class="portfolio-single">
 								<div class="portfolio-thumb">
-									<img src="assets/images/portfolio/10.jpg" class="img-responsive" alt="">
+									<img src="/images/portfolio/10.jpg" class="img-responsive" alt="">
 								</div>
 								<div class="portfolio-view">
 									<ul class="nav nav-pills">
@@ -322,7 +322,7 @@
 						<div class="portfolio-wrapper">
 							<div class="portfolio-single">
 								<div class="portfolio-thumb">
-									<img src="assets/images/portfolio/11.jpg" class="img-responsive" alt="">
+									<img src="/images/portfolio/11.jpg" class="img-responsive" alt="">
 								</div>
 								<div class="portfolio-view">
 									<ul class="nav nav-pills">
@@ -340,7 +340,7 @@
 						<div class="portfolio-wrapper">
 							<div class="portfolio-single">
 								<div class="portfolio-thumb">
-									<img src="assets/images/portfolio/12.jpg" class="img-responsive" alt="">
+									<img src="/images/portfolio/12.jpg" class="img-responsive" alt="">
 								</div>
 								<div class="portfolio-view">
 									<ul class="nav nav-pills">
@@ -358,7 +358,7 @@
 						<div class="portfolio-wrapper">
 							<div class="portfolio-single">
 								<div class="portfolio-thumb">
-									<img src="assets/images/portfolio/13.jpg" class="img-responsive" alt="">
+									<img src="/images/portfolio/13.jpg" class="img-responsive" alt="">
 								</div>
 								<div class="portfolio-view">
 									<ul class="nav nav-pills">
@@ -376,7 +376,7 @@
 						<div class="portfolio-wrapper">
 							<div class="portfolio-single">
 								<div class="portfolio-thumb">
-									<img src="assets/images/portfolio/14.jpg" class="img-responsive" alt="">
+									<img src="/images/portfolio/14.jpg" class="img-responsive" alt="">
 								</div>
 								<div class="portfolio-view">
 									<ul class="nav nav-pills">
@@ -394,7 +394,7 @@
 						<div class="portfolio-wrapper">
 							<div class="portfolio-single">
 								<div class="portfolio-thumb">
-									<img src="assets/images/portfolio/15.jpg" class="img-responsive" alt="">
+									<img src="/images/portfolio/15.jpg" class="img-responsive" alt="">
 								</div>
 								<div class="portfolio-view">
 									<ul class="nav nav-pills">
@@ -412,7 +412,7 @@
 						<div class="portfolio-wrapper">
 							<div class="portfolio-single">
 								<div class="portfolio-thumb">
-									<img src="assets/images/portfolio/16.jpg" class="img-responsive" alt="">
+									<img src="/images/portfolio/16.jpg" class="img-responsive" alt="">
 								</div>
 								<div class="portfolio-view">
 									<ul class="nav nav-pills">
@@ -452,14 +452,14 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12 text-center bottom-separator">
-					<img src="assets/images/home/under.png" class="img-responsive inline" alt="">
+					<img src="assets/home/under.png" class="img-responsive inline" alt="">
 				</div>
 				<div class="col-md-4 col-sm-6">
 					<div class="testimonial bottom">
 						<h2>Testimonial</h2>
 						<div class="media">
 							<div class="pull-left">
-								<a href="#"><img src="assets/images/home/profile1.png" alt=""></a>
+								<a href="#"><img src="assets/home/profile1.png" alt=""></a>
 							</div>
 							<div class="media-body">
 								<blockquote>Nisi commodo bresaola, leberkas venison eiusmod bacon occaecat labore tail.</blockquote>
@@ -468,7 +468,7 @@
 						 </div>
 						<div class="media">
 							<div class="pull-left">
-								<a href="#"><img src="assets/images/home/profile2.png" alt=""></a>
+								<a href="#"><img src="assets/home/profile2.png" alt=""></a>
 							</div>
 							<div class="media-body">
 								<blockquote>Capicola nisi flank sed minim sunt aliqua rump pancetta leberkas venison eiusmod.</blockquote>

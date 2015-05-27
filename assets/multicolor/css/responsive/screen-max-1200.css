@@ -1,0 +1,21 @@
+	/*Pricing Table*/
+	.single-price .plan-price:after {
+		border-width:100px;
+		margin-left:-100px;
+	}
+
+	.single-table .table-content {
+		padding: 20px;
+	}
+
+	.table-header {
+		padding: 0 10px 7px;
+	}
+
+	.single-table:before {
+		border-width:0 106px 60px;
+	}
+
+	.single-table .btn-signup:after {
+		border-width:78px 106px 0;
+	}
