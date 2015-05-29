@@ -706,7 +706,8 @@ ul.sub-menu
 
 #team { padding: 85px 0; }
 #team-carousel { margin-top: 80px; }
-#company-information .padding-top { padding-top: 172px; }
+#company-information .padding-top,
+#calendar .padding-top { padding-top: 172px; }
 .single-service img { height: 85px; }
 
 .tour-button
@@ -859,7 +860,8 @@ ul.sub-menu
 
 .top-zero { margin-top: 0; }
 h3.top-zero { font-size: 20px; }
-#company-information .about-us h2 { margin-bottom: 45px; }
+#company-information .about-us h2,
+#calendar .about-us h2 { margin-bottom: 45px; }
 .single-skill h3 { font-size: 16px; }
 
 .progress
@@ -882,13 +884,21 @@ h3.top-zero { font-size: 20px; }
  * ***** ^ *****   Service Page    ***** ^ ***** *
  * ***** ^ ***** ^ ***** ^ ***** ^ ***** ^ ***** */
 
+#calendar {
+	padding-top: 20px;
+	height: 950px;
+}
+
+
+
 #recent-projects { padding: 85px 0; }
 .recent-projects .team-single { height: 355px; }
 .recent-projects p.padding-bottom { padding-bottom: 50px; }
 .choose { padding-top: 30px; }
 #company-information.choose .padding-top { padding-top: 50px; }
 
-#company-information h2
+#company-information h2,
+#calendar h2
 {
 	margin-bottom: 25px;
 	margin-top: 0;
@@ -910,7 +920,8 @@ ul.elements li > i
 	margin-right: 10px;
 }
 
-#company-information h1.margin-bottom { margin-bottom: 26px; }
+#company-information h1.margin-bottom,
+#calendar h1.margin-bottom{ margin-bottom: 26px; }
 
 /* ***** ^ ***** ^ ***** ^ ***** ^ ***** ^ ***** *
  * ***** ^ ***** Portfolio Default ***** ^ ***** *

@@ -29,6 +29,7 @@ use yii\bootstrap\NavBar;
 			$menuItems = [
 				['label' => 'Home', 'url' => ['/site/index']],
 				['label' => 'Pages', 'items' => [ // <i class="fa fa-angle-down"></i>
+					['label' => 'Calendar', 'url' => ['/site/page', 'view' => 'calendar']],
 					['label' => 'About', 'url' => ['/site/about']],
 					['label' => 'About 2', 'url' => ['/site/page', 'view' => 'about-2']],
 					['label' => 'Contact', 'url' => ['/site/contact']],
