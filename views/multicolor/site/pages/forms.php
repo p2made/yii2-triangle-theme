@@ -1,243 +1,221 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="author" content="">
-	<link rel="apple-touch-icon" sizes="57x57" href="assets/ico/apple-touch-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="assets/ico/apple-touch-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="assets/ico/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="assets/ico/apple-touch-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="assets/ico/apple-touch-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="assets/ico/apple-touch-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="assets/ico/apple-touch-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="assets/ico/apple-touch-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="assets/ico/apple-touch-icon-180x180.png">
-	<link rel="icon" type="image/png" href="assets/ico/favicon-32x32.png" sizes="32x32">
-	<link rel="icon" type="image/png" href="assets/ico/favicon-194x194.png" sizes="194x194">
-	<link rel="icon" type="image/png" href="assets/ico/favicon-96x96.png" sizes="96x96">
-	<link rel="icon" type="image/png" href="assets/ico/android-chrome-192x192.png" sizes="192x192">
-	<link rel="icon" type="image/png" href="assets/ico/favicon-16x16.png" sizes="16x16">
-	<link rel="manifest" href="assets/ico/manifest.json">
-	<link rel="shortcut icon" href="assets/ico/favicon.ico">
-	<meta name="application-name" content="p2made">
-	<meta name="msapplication-TileColor" content="#ffcc00">
-	<meta name="msapplication-TileImage" content="assets/ico/mstile-144x144.png">
-	<meta name="msapplication-square70x70logo" content="assets/ico/mstile-70x70.png">
-	<meta name="msapplication-square150x150logo" content="assets/ico/mstile-150x150.png">
-	<meta name="msapplication-wide310x150logo" content="assets/ico/mstile-310x150.png">
-	<meta name="msapplication-square310x310logo" content="assets/ico/mstile-310x310.png">
-	<meta name="msapplication-config" content="assets/ico/browserconfig.xml">
-	<meta name="theme-color" content="#ffcc00">
+<?php
+/**
+ * blank.php
+ *
+ * @copyright Copyright &copy; Pedro Plowman, https://github.com/p2made, 2016
+ * @author Pedro Plowman
+ * @package p2made/yii2-sb-admin-theme
+ * @license MIT
+ */
 
-	<title>Blank | P2Triangle</title>
+use yii\helpers\Html;
+use yii\bootstrap\ActiveForm;
 
-	<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
-	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
-	<link href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.6/animate.min.css" rel="stylesheet">
-	<link href="assets/css/lightbox.css" rel="stylesheet">
-	<link href="assets/css/triangle.min.css" rel="stylesheet">
-	<link href="assets/css/responsive.min.css" rel="stylesheet">
-	<link href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-social/4.9.0/bootstrap-social.min.css" rel="stylesheet">
-	<!--[if lt IE 9]>
-		<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
-		<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv-printshiv.min.js"></script>
-		<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
-	<![endif]-->
-</head>
-<body>
-	<header id="header">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-12 overflow">
-				   <div class="social-icons pull-right">
-						<ul class="nav nav-pills">
-							<li><a href=""><i class="fa fa-facebook"></i></a></li>
-							<li><a href=""><i class="fa fa-twitter"></i></a></li>
-							<li><a href=""><i class="fa fa-google-plus"></i></a></li>
-							<li><a href=""><i class="fa fa-dribbble"></i></a></li>
-							<li><a href=""><i class="fa fa-linkedin"></i></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
+p2made\theme\sbAdmin\assets\SBAdmin2Asset::register($this);
+
+$this->title = 'Forms';
+
+/* @var $this yii\web\View */
+/* @var $form yii\bootstrap\ActiveForm */
+/* @var $model \common\models\LoginForm */
+?>
+<div id="content-wrapper">
+
+	<!-- #pragma - 1 or more naked rows go in here -->
+
+	<div class="row">
+
+		<div class="col-lg-12">
+
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					Basic Form Elements
+				</div><!-- /.panel-heading -->
+				<div class="panel-body">
+					<div class="row">
+						<div class="col-lg-6">
+							<form role="form">
+								<div class="form-group">
+									<label>Text Input</label>
+									<input class="form-control">
+									<p class="help-block">Example block-level help text here.</p>
+								</div>
+								<div class="form-group">
+									<label>Text Input with Placeholder</label>
+									<input class="form-control" placeholder="Enter text">
+								</div>
+								<div class="form-group">
+									<label>Static Control</label>
+									<p class="form-control-static">email@example.com</p>
+								</div>
+								<div class="form-group">
+									<label>File input</label>
+									<input type="file">
+								</div>
+								<div class="form-group">
+									<label>Text area</label>
+									<textarea class="form-control" rows="3"></textarea>
+								</div>
+								<div class="form-group">
+									<label>Checkboxes</label>
+									<div class="checkbox">
+										<label>
+											<input type="checkbox" value="">Checkbox 1
+										</label>
+									</div>
+									<div class="checkbox">
+										<label>
+											<input type="checkbox" value="">Checkbox 2
+										</label>
+									</div>
+									<div class="checkbox">
+										<label>
+											<input type="checkbox" value="">Checkbox 3
+										</label>
+									</div>
+								</div>
+								<div class="form-group">
+									<label>Inline Checkboxes</label>
+									<label class="checkbox-inline">
+										<input type="checkbox">1
+									</label>
+									<label class="checkbox-inline">
+										<input type="checkbox">2
+									</label>
+									<label class="checkbox-inline">
+										<input type="checkbox">3
+									</label>
+								</div>
+								<div class="form-group">
+									<label>Radio Buttons</label>
+									<div class="radio">
+										<label>
+											<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>Radio 1
+										</label>
+									</div>
+									<div class="radio">
+										<label>
+											<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">Radio 2
+										</label>
+									</div>
+									<div class="radio">
+										<label>
+											<input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">Radio 3
+										</label>
+									</div>
+								</div>
+								<div class="form-group">
+									<label>Inline Radio Buttons</label>
+									<label class="radio-inline">
+										<input type="radio" name="optionsRadiosInline" id="optionsRadiosInline1" value="option1" checked>1
+									</label>
+									<label class="radio-inline">
+										<input type="radio" name="optionsRadiosInline" id="optionsRadiosInline2" value="option2">2
+									</label>
+									<label class="radio-inline">
+										<input type="radio" name="optionsRadiosInline" id="optionsRadiosInline3" value="option3">3
+									</label>
+								</div>
+								<div class="form-group">
+									<label>Selects</label>
+									<select class="form-control">
+										<option>1</option>
+										<option>2</option>
+										<option>3</option>
+										<option>4</option>
+										<option>5</option>
+									</select>
+								</div>
+								<div class="form-group">
+									<label>Multiple Selects</label>
+									<select multiple class="form-control">
+										<option>1</option>
+										<option>2</option>
+										<option>3</option>
+										<option>4</option>
+										<option>5</option>
+									</select>
+								</div>
+								<button type="submit" class="btn btn-default">Submit Button</button>
+								<button type="reset" class="btn btn-default">Reset Button</button>
+							</form>
+						</div><!-- /.col-lg-6 (nested) -->
+						<div class="col-lg-6">
+							<h1>Disabled Form States</h1>
+							<form role="form">
+								<fieldset disabled>
+									<div class="form-group">
+										<label for="disabledSelect">Disabled input</label>
+										<input class="form-control" id="disabledInput" type="text" placeholder="Disabled input" disabled>
+									</div>
+									<div class="form-group">
+										<label for="disabledSelect">Disabled select menu</label>
+										<select id="disabledSelect" class="form-control">
+											<option>Disabled select</option>
+										</select>
+									</div>
+									<div class="checkbox">
+										<label>
+											<input type="checkbox">Disabled Checkbox
+										</label>
+									</div>
+									<button type="submit" class="btn btn-primary">Disabled Button</button>
+								</fieldset>
+							</form>
+							<h1>Form Validation States</h1>
+							<form role="form">
+								<div class="form-group has-success">
+									<label class="control-label" for="inputSuccess">Input with success</label>
+									<input type="text" class="form-control" id="inputSuccess">
+								</div>
+								<div class="form-group has-warning">
+									<label class="control-label" for="inputWarning">Input with warning</label>
+									<input type="text" class="form-control" id="inputWarning">
+								</div>
+								<div class="form-group has-error">
+									<label class="control-label" for="inputError">Input with error</label>
+									<input type="text" class="form-control" id="inputError">
+								</div>
+							</form>
+							<h1>Input Groups</h1>
+							<form role="form">
+								<div class="form-group input-group">
+									<span class="input-group-addon">@</span>
+									<input type="text" class="form-control" placeholder="Username">
+								</div>
+								<div class="form-group input-group">
+									<input type="text" class="form-control">
+									<span class="input-group-addon">.00</span>
+								</div>
+								<div class="form-group input-group">
+									<span class="input-group-addon"><i class="fa fa-eur"></i>
+									</span>
+									<input type="text" class="form-control" placeholder="Font Awesome Icon">
+								</div>
+								<div class="form-group input-group">
+									<span class="input-group-addon">$</span>
+									<input type="text" class="form-control">
+									<span class="input-group-addon">.00</span>
+								</div>
+								<div class="form-group input-group">
+									<input type="text" class="form-control">
+									<span class="input-group-btn">
+										<button class="btn btn-default" type="button"><i class="fa fa-search"></i>
+										</button>
+									</span>
+								</div>
+							</form>
+						</div><!-- /.col-lg-6 (nested) -->
+					</div><!-- /.row (nested) -->
+				</div><!-- /.panel-body -->
+			</div><!-- /.panel -->
+
 		</div>
-		<div class="navbar navbar-inverse" role="banner">
-			<div class="container">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
 
-					<a class="navbar-brand" href="index.php">
-						<h1>
-							<img src="assets/logo-square.png" alt="logo">
-							P<sup>2</sup>Triangle
-						</h1>
-					</a>
+	</div>
 
-				</div>
-				<div class="collapse navbar-collapse">
-					<ul class="nav navbar-nav navbar-right">
-						<li><a href="index.php">Home</a></li>
-						<li class="dropdown active"><a href="#">Pages <i class="fa fa-angle-down"></i></a>
-							<ul role="menu" class="sub-menu">
-								<li><a class="active" href="about.php">About</a></li>
-								<li><a href="about2.php">About 2</a></li>
-								<li><a href="service.php">Services</a></li>
-								<li><a href="pricing.php">Pricing</a></li>
-								<li><a href="contact.php">Contact us</a></li>
-								<li><a href="contact2.php">Contact us 2</a></li>
-								<li><a href="404.php">404 error</a></li>
-								<li><a href="coming-soon.php">Coming Soon</a></li>
-								<li><a href="blank.php">Blank</a></li>
-								<li><a href="blank2.php">Blank 2</a></li>
-							</ul>
-						</li>
-						<li class="dropdown"><a href="blog-default.php">Blog <i class="fa fa-angle-down"></i></a>
-							<ul role="menu" class="sub-menu">
-								<li><a href="blog-default.php">Blog Default</a></li>
-								<li><a href="blog-timeline.php">Timeline Blog</a></li>
-								<li><a href="blog-2cr.php">2 Columns + Right Sidebar</a></li>
-								<li><a href="blog-1cl.php">1 Column + Left Sidebar</a></li>
-								<li><a href="blog-masonary.php">Blog Masonary</a></li>
-								<li><a href="blog-details.php">Blog Details</a></li>
-							</ul>
-						</li>
-						<li class="dropdown"><a href="portfolio-default.php">Portfolio <i class="fa fa-angle-down"></i></a>
-							<ul role="menu" class="sub-menu">
-								<li><a href="portfolio-default.php">Portfolio Default</a></li>
-								<li><a href="portfolio-isotope.php">Isotope 3 Columns + Right Sidebar</a></li>
-								<li><a href="portfolio-3cr.php">3 Columns + Right Sidebar</a></li>
-								<li><a href="portfolio-3cl.php">3 Columns + Left Sidebar</a></li>
-								<li><a href="portfolio-2c.php">2 Columns</a></li>
-								<li><a href="portfolio-details.php">Portfolio Details</a></li>
-							</ul>
-						</li>
-						<li class="dropdown"><a href="portfolio-default.php">Members <i class="fa fa-angle-down"></i></a>
-							<ul role="menu" class="sub-menu">
-								<li><a href="signup.php">Signup</a></li>
-								<li><a href="login.php">Login</a></li>
-								<li><a href="profile.php">Profile</a></li>
-							</ul>
-						</li>
-						<li><a href="shortcodes.php">Shortcodes</a></li>
-					</ul>
-				</div>
-				<div class="search">
-					<form role="form">
-						<i class="fa fa-search"></i>
-						<div class="field-toggle">
-							<input type="text" class="search-form" autocomplete="off" placeholder="Search">
-						</div>
-					</form>
-				</div>
-			</div>
-		</div>
-	</header><!--/#header-->
+	<!-- /#pragma -->
 
-	<section id="page-breadcrumb">
-		<div class="vertical-center sun">
-			<div class="container">
-				<div class="row">
-					<div class="action">
-						<div class="col-sm-12">
-							<h1 class="title">Blank</h1>
-							<p>A blank canvas for you to create on.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-   </section><!--/#page-breadcrumb-->
+	<br><div class="alert alert-info" role="alert"><p><code><?= __FILE__ ?></code></p></div>
 
-	<section id="blank">
-	</section><!--/#blank-->
-
-	<footer id="footer">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-12 text-center bottom-separator">
-					<img src="assets/under.png" class="img-responsive inline" alt="">
-				</div>
-				<div class="col-md-4 col-sm-6">
-					<div class="testimonial bottom">
-						<h2>Testimonial</h2>
-						<div class="media">
-							<div class="pull-left">
-								<a href="#"><img src="/images/people/profile-1.png" alt=""></a>
-							</div>
-							<div class="media-body">
-								<blockquote>Nisi commodo bresaola, leberkas venison eiusmod bacon occaecat labore tail.</blockquote>
-								<h3><a href="#">- Jhon Kalis</a></h3>
-							</div>
-						</div>
-						<div class="media">
-							<div class="pull-left">
-								<a href="#"><img src="/images/people/profile-2.png" alt=""></a>
-							</div>
-							<div class="media-body">
-								<blockquote>Capicola nisi flank sed minim sunt aliqua rump pancetta leberkas venison eiusmod.</blockquote>
-								<h3><a href="">- Abraham Josef</a></h3>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-6">
-					<div class="contact-info bottom">
-						<h2>Contacts</h2>
-						<address>
-						E-mail: <a href="mailto:someone@example.com">email@email.com</a> <br>
-						Phone: +1 (123) 456 7890 <br>
-						Fax: +1 (123) 456 7891 <br>
-						</address>
-
-						<h2>Address</h2>
-						<address>
-						Unit C2, St.Vincent's Trading Est., <br>
-						Feeder Road, <br>
-						Bristol, BS2 0UY <br>
-						United Kingdom <br>
-						</address>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-12">
-					<div class="contact-form bottom">
-						<h2>Send a message</h2>
-						<form id="main-contact-form" name="contact-form" method="post" action="sendemail.php">
-							<div class="form-group">
-								<input type="text" name="name" class="form-control" required="required" placeholder="Name">
-							</div>
-							<div class="form-group">
-								<input type="email" name="email" class="form-control" required="required" placeholder="Email Id">
-							</div>
-							<div class="form-group">
-								<textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Your text here"></textarea>
-							</div>
-							<div class="form-group">
-								<input type="submit" name="submit" class="btn btn-submit" value="Submit">
-							</div>
-						</form>
-					</div>
-				</div>
-				<div class="col-sm-12">
-					<div class="copyright-text text-center">
-						<p>&copy; Your Company 2014. All Rights Reserved.</p>
-						<p>Designed by <a target="_blank" href="http://www.themeum.com">Themeum</a></p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</footer><!--/#footer-->
-
-	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-	<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"></script>
-	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-	<script type="text/javascript" src="assets/js/lightbox.min.js"></script>
-	<script type="text/javascript" src="assets/js/triangle.min.js"></script>
-</body>
-</html>
+</div><!-- /#content-wrapper -->

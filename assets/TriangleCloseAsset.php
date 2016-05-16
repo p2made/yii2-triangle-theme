@@ -16,7 +16,5 @@ class TriangleCloseAsset extends \yii\web\AssetBundle
 
 	public $depends = [
 		'p2made\assets\BootstrapSocialAsset',
-		'p2made\assets\Html5shivAsset',
-		'p2made\assets\PrintShivAsset',
 	];
 }

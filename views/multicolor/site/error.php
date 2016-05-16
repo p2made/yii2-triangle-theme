@@ -1,59 +1,55 @@
 <?php
 /**
- * about.php
+ * error.php
  *
  * @copyright Copyright &copy; Pedro Plowman, https://github.com/p2made, 2016
  * @author Pedro Plowman
- * @package p2made/yii2-triangle-theme
+ * @package p2made/yii2-sb-admin-theme
  * @license MIT
  */
 
 use yii\helpers\Html;
+use yii\bootstrap\ActiveForm;
 
-/* @var $this yii\web\View */
-/* @var $name string */
-/* @var $message string */
-/* @var $exception Exception */
-
-// load assets...
-p2made\theme\Triangle\assets\TriangleOpenAsset::register($this);
-
-p2made\theme\Triangle\assets\LightboxAsset::register($this);
-p2made\theme\Triangle\assets\TriangleMulticolorAsset::register($this);
-
-p2made\theme\Triangle\assets\TriangleCloseAsset::register($this);
+p2made\theme\sbAdmin\assets\SBAdmin2Asset::register($this);
 
 $this->title = $name;
-$tagline = '';
+
+/* @var $this yii\web\View */
+/* @var $form yii\bootstrap\ActiveForm */
+/* @var $model \common\models\LoginForm */
 ?>
-	<section id="error-page">
-		<div class="error-page-inner">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-sm-12">
-						<div class="text-center">
-							<div class="bg-404">
-								<div class="error-image">
-									<h1><?= Html::encode($this->title) ?></h1>
-									<!--<img class="img-responsive" src="/images/404.png" alt="">-->
-								</div>
-							</div>
-							<h2>PAGE NOT FOUND</h2>
-							<p>The page you are looking for might have been removed, had its name changed.</p>
-
-
-							<p>name: <?= nl2br(Html::encode($name)) ?></p>
-							<p>message: <?= nl2br(Html::encode($message)) ?></p>
-
-							<a href="index.php" class="btn btn-error">RETURN TO THE HOMEPAGE</a>
-							<div class="social-link">
-								<span><a href="#"><i class="fa fa-facebook"></i></a></span>
-								<span><a href="#"><i class="fa fa-twitter"></i></a></span>
-								<span><a href="#"><i class="fa fa-google-plus"></i></a></span>
-							</div>
+<div id="content-wrapper">
+	<div class="row">
+		<div class="col-lg-6 col-lg-offset-3 col-sm-12">
+			<div class="panel panel-red">
+				<div class="panel-heading">
+					<div class="row">
+						<div class="col-md-2">
+							<h1><div class="huge"><i class="fa fa-warning"></i></div></h1>
+						</div>
+						<div class="col-md-10">
+							<h3><?= nl2br(Html::encode($message)) ?></h3>
 						</div>
 					</div>
 				</div>
+				<div class="panel-body">
+
+					<p>The above error occurred while the Web server was processing your request. Please contact us if you think this is a server error. Thank you. Meanwhile, you may <a href='<?= Yii::$app->homeUrl ?>'>return to dashboard</a> or try using the search form.</p>
+
+					<form class='search-form'>
+						<div class='input-group'>
+							<input type="text" name="search" class='form-control' placeholder="Search">
+							<div class="input-group-btn">
+								<button type="submit" name="submit" class="btn btn-primary">
+									<i class="fa fa-search"></i>
+								</button>
+							</div>
+						</div>
+					</form>
+
+				</div>
 			</div>
 		</div>
-	</section>
+	</div><!-- /.row -->
+</div><!-- /#page-wrapper -->
