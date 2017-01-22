@@ -73,7 +73,7 @@ To view pages in `site/pages/` you need to modify `actions()` in the `SiteContro
 	}
 ```
 
-P2Triangle Theme uses P2Y2Things which requires some Yii 2 assets to be nullified to avoid conflicts through double loading. Modify `common/config/main.php` with...
+P2Triangle Theme uses [P2Y2Things](https://github.com/p2made/yii2-p2y2-things) which requires some Yii 2 assets to be nullified to avoid conflicts through double loading. Modify `common/config/main.php` with...
 
 ```
 	'components' => [
