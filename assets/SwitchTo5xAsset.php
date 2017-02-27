@@ -8,7 +8,7 @@
  * @license MIT
  */
 
-namespace p2made\theme\Triangle\assets;
+namespace p2m\theme\Triangle\assets;
 
 class SwitchTo5xAsset extends \yii\web\AssetBundle
 {

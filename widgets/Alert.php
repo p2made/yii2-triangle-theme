@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace p2made\theme\Triangle\widgets;
+namespace p2m\theme\Triangle\widgets;
 
 use \yii\bootstrap\Alert as BootstrapAlert;
 use \yii\bootstrap\Widget;

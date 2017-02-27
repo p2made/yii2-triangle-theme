@@ -5,49 +5,27 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="">
 	<meta name="author" content="">
-	<link rel="apple-touch-icon" sizes="57x57" href="assets/ico/apple-touch-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="assets/ico/apple-touch-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="assets/ico/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="assets/ico/apple-touch-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="assets/ico/apple-touch-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="assets/ico/apple-touch-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="assets/ico/apple-touch-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="assets/ico/apple-touch-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="assets/ico/apple-touch-icon-180x180.png">
-	<link rel="icon" type="image/png" href="assets/ico/favicon-32x32.png" sizes="32x32">
-	<link rel="icon" type="image/png" href="assets/ico/favicon-194x194.png" sizes="194x194">
-	<link rel="icon" type="image/png" href="assets/ico/favicon-96x96.png" sizes="96x96">
-	<link rel="icon" type="image/png" href="assets/ico/android-chrome-192x192.png" sizes="192x192">
-	<link rel="icon" type="image/png" href="assets/ico/favicon-16x16.png" sizes="16x16">
-	<link rel="manifest" href="assets/ico/manifest.json">
-	<link rel="shortcut icon" href="assets/ico/favicon.ico">
-	<meta name="application-name" content="p2made">
-	<meta name="msapplication-TileColor" content="#ffcc00">
-	<meta name="msapplication-TileImage" content="assets/ico/mstile-144x144.png">
-	<meta name="msapplication-square70x70logo" content="assets/ico/mstile-70x70.png">
-	<meta name="msapplication-square150x150logo" content="assets/ico/mstile-150x150.png">
-	<meta name="msapplication-wide310x150logo" content="assets/ico/mstile-310x150.png">
-	<meta name="msapplication-square310x310logo" content="assets/ico/mstile-310x310.png">
-	<meta name="msapplication-config" content="assets/ico/browserconfig.xml">
-	<meta name="theme-color" content="#ffcc00">
+	<title>Pricing Table | Triangle</title>
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/css/font-awesome.min.css" rel="stylesheet">
+	<link href="assets/css/prettyPhoto.css" rel="stylesheet"> 
+	<link href="assets/css/animate.min.css" rel="stylesheet"> 
+	<link href="assets/css/main.css" rel="stylesheet">
+	<link href="assets/css/responsive.css" rel="stylesheet">
 
-	<title>Pricing Table | P2Triangle</title>
-
-	<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
-	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
-	<link href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.6/animate.min.css" rel="stylesheet">
-	<link href="//cdn.jsdelivr.net/prettyphoto/3.1.5/css/prettyPhoto.css" rel="stylesheet">
-	<link href="assets/css/triangle.min.css" rel="stylesheet">
-	<link href="assets/css/responsive.min.css" rel="stylesheet">
-	<link href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-social/4.9.0/bootstrap-social.min.css" rel="stylesheet">
 	<!--[if lt IE 9]>
-		<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
-		<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv-printshiv.min.js"></script>
-		<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
-	<![endif]-->
-</head>
+		<script src="assets/js/html5shiv.js"></script>
+		<script src="assets/js/respond.min.js"></script>
+	<![endif]-->	   
+	<link rel="shortcut icon" href="assets/img/ico/favicon.ico">
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/img/ico/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/img/ico/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/img/ico/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" href="assets/img/ico/apple-touch-icon-57-precomposed.png">
+</head><!--/head-->
+
 <body>
-	<header id="header">
+	<header id="header">	  
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12 overflow">
@@ -59,9 +37,9 @@
 							<li><a href=""><i class="fa fa-dribbble"></i></a></li>
 							<li><a href=""><i class="fa fa-linkedin"></i></a></li>
 						</ul>
-					</div>
+					</div> 
 				</div>
-			</div>
+			 </div>
 		</div>
 		<div class="navbar navbar-inverse" role="banner">
 			<div class="container">
@@ -73,59 +51,47 @@
 						<span class="icon-bar"></span>
 					</button>
 
-					<a class="navbar-brand" href="index.php">
-						<h1>
-							<img src="assets/logo-square.png" alt="logo">
-							P<sup>2</sup>Triangle
-						</h1>
+					<a class="navbar-brand" href="index.html">
+						<h1><img src="assets/img/logo.png" alt="logo"></h1>
 					</a>
-
+					
 				</div>
 				<div class="collapse navbar-collapse">
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href="index.php">Home</a></li>
 						<li class="dropdown active"><a href="#">Pages <i class="fa fa-angle-down"></i></a>
 							<ul role="menu" class="sub-menu">
-								<li><a href="about.php">About</a></li>
-								<li><a href="about2.php">About 2</a></li>
+								<li><a href="aboutus.php">About</a></li>
+								<li><a href="aboutus2.php">About 2</a></li>
 								<li><a href="service.php">Services</a></li>
-								<li><a class="active" href="pricing.php">Pricing</a></li>
+								<li><a class="active" href="pricing.html">Pricing</a></li>
 								<li><a href="contact.php">Contact us</a></li>
 								<li><a href="contact2.php">Contact us 2</a></li>
 								<li><a href="404.php">404 error</a></li>
 								<li><a href="coming-soon.php">Coming Soon</a></li>
-								<li><a href="blank.php">Blank</a></li>
-								<li><a href="blank2.php">Blank 2</a></li>
+							</ul>
+						</li>					
+						<li class="dropdown"><a href="blog.php">Blog <i class="fa fa-angle-down"></i></a>
+							<ul role="menu" class="sub-menu">
+								<li><a href="blog.php">Blog Default</a></li>
+								<li><a href="blogtwo.php">Timeline Blog</a></li>
+								<li><a href="blogone.php">2 Columns + Right Sidebar</a></li>
+								<li><a href="blogthree.php">1 Column + Left Sidebar</a></li>
+								<li><a href="blogfour.php">Blog Masonary</a></li>
+								<li><a href="blogdetails.php">Blog Details</a></li>
 							</ul>
 						</li>
-						<li class="dropdown"><a href="blog-default.php">Blog <i class="fa fa-angle-down"></i></a>
+						<li class="dropdown"><a href="portfolio.php">Portfolio <i class="fa fa-angle-down"></i></a>
 							<ul role="menu" class="sub-menu">
-								<li><a href="blog-default.php">Blog Default</a></li>
-								<li><a href="blog-timeline.php">Timeline Blog</a></li>
-								<li><a href="blog-2cr.php">2 Columns + Right Sidebar</a></li>
-								<li><a href="blog-1cl.php">1 Column + Left Sidebar</a></li>
-								<li><a href="blog-masonary.php">Blog Masonary</a></li>
-								<li><a href="blog-details.php">Blog Details</a></li>
-							</ul>
-						</li>
-						<li class="dropdown"><a href="portfolio-default.php">Portfolio <i class="fa fa-angle-down"></i></a>
-							<ul role="menu" class="sub-menu">
-								<li><a href="portfolio-default.php">Portfolio Default</a></li>
-								<li><a href="portfolio-isotope.php">Isotope 3 Columns + Right Sidebar</a></li>
-								<li><a href="portfolio-3cr.php">3 Columns + Right Sidebar</a></li>
-								<li><a href="portfolio-3cl.php">3 Columns + Left Sidebar</a></li>
-								<li><a href="portfolio-2c.php">2 Columns</a></li>
+								<li><a href="portfolio.php">Portfolio Default</a></li>
+								<li><a href="portfoliofour.php">Isotope 3 Columns + Right Sidebar</a></li>
+								<li><a href="portfolioone.php">3 Columns + Right Sidebar</a></li>
+								<li><a href="portfoliotwo.php">3 Columns + Left Sidebar</a></li>
+								<li><a href="portfoliothree.php">2 Columns</a></li>
 								<li><a href="portfolio-details.php">Portfolio Details</a></li>
 							</ul>
-						</li>
-						<li class="dropdown"><a href="portfolio-default.php">Members <i class="fa fa-angle-down"></i></a>
-							<ul role="menu" class="sub-menu">
-								<li><a href="signup.php">Signup</a></li>
-								<li><a href="login.php">Login</a></li>
-								<li><a href="profile.php">Profile</a></li>
-							</ul>
-						</li>
-						<li><a href="shortcodes.php">Shortcodes</a></li>
+						</li>						 
+						<li><a href="shortcodes.php">Shortcodes</a></li>					   
 					</ul>
 				</div>
 				<div class="search">
@@ -138,24 +104,26 @@
 				</div>
 			</div>
 		</div>
-	</header><!--/#header-->
+	</header>
+	<!--/#header-->
 
-	<section id="page-breadcrumb">
+   <section id="page-breadcrumb">
 		<div class="vertical-center sun">
-			<div class="container">
+			 <div class="container">
 				<div class="row">
 					<div class="action">
 						<div class="col-sm-12">
 							<h1 class="title">Pricing Table</h1>
 							<p>configure your pricing table</p>
-						</div>
+						</div>						
 					</div>
 				</div>
 			</div>
 		</div>
-	</section><!--/#action-->
+   </section>
+	<!--/#action-->
 
-	<section class="container">
+	<section class="container">		
 		<div class="price-table">
 			<div class="row">
 				<div class="col-sm-6 col-md-3">
@@ -164,7 +132,7 @@
 							<p class="plan-name">Basic Plan</p>
 							<p class="plan-price"><span class="dollar-sign">$</span><span class="price">29</span><span class="month">/ Month</span></p>
 						</div>
-						<ul>
+						<ul>							
 							<li>Lorem ipsum dolor <span><i class="fa fa-check"></i></span></li>
 							<li>Consectetur adipiscing <span><i class="fa fa-times"></i></span></li>
 							<li>Nulla pellentesque <span><i class="fa fa-times"></i></span> </li>
@@ -180,10 +148,10 @@
 						<div class="table-heading">
 							<p class="plan-name">Silver Plan</p>
 							<p class="plan-price"><span class="dollar-sign">$</span><span class="price">89</span><span class="month">/ Month</span></p>
-						</div>
+						</div>						
 						<ul>
 							<li>Lorem ipsum dolor <span><i class="fa fa-check"></i></span></li>
-							<li>Consectetur adipiscing <span><i class="fa fa-check"></i></span></li>
+							<li>Consectetur adipiscing <span><i class="fa fa-times"></i></span></li>
 							<li>Nulla pellentesque <span><i class="fa fa-times"></i></span> </li>
 							<li> Integer quis risus <span><i class="fa fa-check"></i></span></li>
 							<li>Phasellus et metus <span><i class="fa fa-times"></i></span></li>
@@ -196,14 +164,14 @@
 					<div class="single-price price-three">
 						<div class="table-heading">
 							<p class="plan-name">Glod Plan</p>
-							<p class="plan-price"><span class="dollar-sign">$</span><span class="price">299</span><span class="month">/ Month</span></p>
+							<p class="plan-price"><span class="dollar-sign">$</span><span class="price">29</span><span class="month">/ Month</span></p>
 						</div>
 						<ul>
 							<li>Lorem ipsum dolor <span><i class="fa fa-check"></i></span></li>
-							<li>Consectetur adipiscing <span><i class="fa fa-check"></i></span></li>
+							<li>Consectetur adipiscing <span><i class="fa fa-times"></i></span></li>
 							<li>Nulla pellentesque <span><i class="fa fa-times"></i></span> </li>
 							<li> Integer quis risus <span><i class="fa fa-check"></i></span></li>
-							<li>Phasellus et metus <span><i class="fa fa-check"></i></span></li>
+							<li>Phasellus et metus <span><i class="fa fa-times"></i></span></li>
 							<li>Duis nec massa inter <span><i class="fa fa-check"></i></span></li>
 						</ul>
 						<a href="#" class="btn btn-buynow">Buy Now</a>
@@ -213,14 +181,14 @@
 					<div class="single-price price-four">
 						<div class="table-heading">
 							<p class="plan-name">Platinum Plan</p>
-							<p class="plan-price"><span class="dollar-sign">$</span><span class="price">699</span><span class="month">/ Month</span></p>
+							<p class="plan-price"><span class="dollar-sign">$</span><span class="price">29</span><span class="month">/ Month</span></p>
 						</div>
 						<ul>
 							<li>Lorem ipsum dolor <span><i class="fa fa-check"></i></span></li>
-							<li>Consectetur adipiscing <span><i class="fa fa-check"></i></span></li>
-							<li>Nulla pellentesque <span><i class="fa fa-check"></i></span> </li>
+							<li>Consectetur adipiscing <span><i class="fa fa-times"></i></span></li>
+							<li>Nulla pellentesque <span><i class="fa fa-times"></i></span> </li>
 							<li> Integer quis risus <span><i class="fa fa-check"></i></span></li>
-							<li>Phasellus et metus <span><i class="fa fa-check"></i></span></li>
+							<li>Phasellus et metus <span><i class="fa fa-times"></i></span></li>
 							<li>Duis nec massa inter <span><i class="fa fa-check"></i></span></li>
 						</ul>
 						<a href="#" class="btn btn-buynow">Buy Now</a>
@@ -233,13 +201,13 @@
 	<section class="container">
 		<div class="price-table2">
 			<div class="row">
-				<div class="col-sm-6 col-md-3">
+				<div class="col-sm-6 col-md-3">					
 					<div class="single-table table-one">
 						<div class="table-header">
 							<h2>Basic</h2>
 							<p class="plan-price"><span class="dollar-sign">$</span><span class="price">29</span><span class="month">/ Month</span></p>
 						</div>
-						<ul>
+						 <ul>							
 							<li>Lorem ipsum dolor <span><i class="fa fa-check"></i></span></li>
 							<li>Consectetur adipiscing <span><i class="fa fa-times"></i></span></li>
 							<li>Nulla pellentesque <span><i class="fa fa-times"></i></span> </li>
@@ -256,9 +224,9 @@
 							<h2>Silver</h2>
 							<p class="plan-price"><span class="dollar-sign">$</span><span class="price">89</span><span class="month">/ Month</span></p>
 						</div>
-						<ul>
+						 <ul>							
 							<li>Lorem ipsum dolor <span><i class="fa fa-check"></i></span></li>
-							<li>Consectetur adipiscing <span><i class="fa fa-check"></i></span></li>
+							<li>Consectetur adipiscing <span><i class="fa fa-times"></i></span></li>
 							<li>Nulla pellentesque <span><i class="fa fa-times"></i></span> </li>
 							<li> Integer quis risus <span><i class="fa fa-check"></i></span></li>
 							<li>Phasellus et metus <span><i class="fa fa-times"></i></span></li>
@@ -273,12 +241,12 @@
 							<h2>Gold</h2>
 							<p class="plan-price"><span class="dollar-sign">$</span><span class="price">299</span><span class="month">/ Month</span></p>
 						</div>
-						<ul>
+						 <ul>							
 							<li>Lorem ipsum dolor <span><i class="fa fa-check"></i></span></li>
-							<li>Consectetur adipiscing <span><i class="fa fa-check"></i></span></li>
+							<li>Consectetur adipiscing <span><i class="fa fa-times"></i></span></li>
 							<li>Nulla pellentesque <span><i class="fa fa-times"></i></span> </li>
 							<li> Integer quis risus <span><i class="fa fa-check"></i></span></li>
-							<li>Phasellus et metus <span><i class="fa fa-check"></i></span></li>
+							<li>Phasellus et metus <span><i class="fa fa-times"></i></span></li>
 							<li>Duis nec massa inter <span><i class="fa fa-check"></i></span></li>
 						</ul>
 					   <span class="btn-signup"><a href="#">sign up</a></span>
@@ -290,12 +258,12 @@
 							<h2>Platinum</h2>
 							<p class="plan-price"><span class="dollar-sign">$</span><span class="price">699</span><span class="month">/ Month</span></p>
 						</div>
-						<ul>
+						 <ul>							
 							<li>Lorem ipsum dolor <span><i class="fa fa-check"></i></span></li>
-							<li>Consectetur adipiscing <span><i class="fa fa-check"></i></span></li>
-							<li>Nulla pellentesque <span><i class="fa fa-check"></i></span> </li>
+							<li>Consectetur adipiscing <span><i class="fa fa-times"></i></span></li>
+							<li>Nulla pellentesque <span><i class="fa fa-times"></i></span> </li>
 							<li> Integer quis risus <span><i class="fa fa-check"></i></span></li>
-							<li>Phasellus et metus <span><i class="fa fa-check"></i></span></li>
+							<li>Phasellus et metus <span><i class="fa fa-times"></i></span></li>
 							<li>Duis nec massa inter <span><i class="fa fa-check"></i></span></li>
 						</ul>
 					   <span class="btn-signup"><a href="#">sign up</a></span>
@@ -309,46 +277,46 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12 text-center bottom-separator">
-					<img src="assets/under.png" class="img-responsive inline" alt="">
+					<img src="assets/img/home/under.png" class="img-responsive inline" alt="">
 				</div>
 				<div class="col-md-4 col-sm-5">
 					<div class="testimonial bottom">
 						<h2>Testimonial</h2>
 						<div class="media">
 							<div class="pull-left">
-								<a href="#"><img src="/images/people/profile-1.png" alt=""></a>
+								<a href="#"><img src="assets/img/home/profile1.png" alt=""></a>
 							</div>
 							<div class="media-body">
 								<blockquote>Nisi commodo bresaola, leberkas venison eiusmod bacon occaecat labore tail.</blockquote>
 								<h3><a href="#">- Jhon Kalis</a></h3>
 							</div>
-						</div>
+						 </div>
 						<div class="media">
 							<div class="pull-left">
-								<a href="#"><img src="/images/people/profile-2.png" alt=""></a>
+								<a href="#"><img src="assets/img/home/profile2.png" alt=""></a>
 							</div>
 							<div class="media-body">
 								<blockquote>Capicola nisi flank sed minim sunt aliqua rump pancetta leberkas venison eiusmod.</blockquote>
 								<h3><a href="">- Abraham Josef</a></h3>
 							</div>
-						</div>
-					</div>
+						</div>   
+					</div> 
 				</div>
 				<div class="col-md-3 col-sm-3 col-md-offset-1">
 					<div class="contact-info bottom">
 						<h2>Contacts</h2>
 						<address>
-						E-mail: <a href="mailto:someone@example.com">email@email.com</a> <br>
-						Phone: +1 (123) 456 7890 <br>
-						Fax: +1 (123) 456 7891 <br>
+						E-mail: <a href="mailto:someone@example.com">email@email.com</a> <br> 
+						Phone: +1 (123) 456 7890 <br> 
+						Fax: +1 (123) 456 7891 <br> 
 						</address>
 
 						<h2>Address</h2>
 						<address>
-						Unit C2, St.Vincent's Trading Est., <br>
-						Feeder Road, <br>
-						Bristol, BS2 0UY <br>
-						United Kingdom <br>
+						Unit C2, St.Vincent's Trading Est., <br> 
+						Feeder Road, <br> 
+						Bristol, BS2 0UY <br> 
+						United Kingdom <br> 
 						</address>
 					</div>
 				</div>
@@ -364,7 +332,7 @@
 							</div>
 							<div class="form-group">
 								<textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Your text here"></textarea>
-							</div>
+							</div>						
 							<div class="form-group">
 								<input type="submit" name="submit" class="btn btn-submit" value="Submit">
 							</div>
@@ -379,11 +347,12 @@
 				</div>
 			</div>
 		</div>
-	</footer><!--/#footer-->
+	</footer>
+	<!--/#footer-->
 
-	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-	<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"></script>
-	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-	<script type="text/javascript" src="assets/js/triangle.min.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.js"></script>
+	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/wow.min.js"></script>
+	<script type="text/javascript" src="assets/js/main.js"></script>   
 </body>
 </html>

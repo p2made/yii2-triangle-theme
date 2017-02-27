@@ -5,47 +5,25 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="">
 	<meta name="author" content="">
-	<link rel="apple-touch-icon" sizes="57x57" href="assets/ico/apple-touch-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="assets/ico/apple-touch-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="assets/ico/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="assets/ico/apple-touch-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="assets/ico/apple-touch-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="assets/ico/apple-touch-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="assets/ico/apple-touch-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="assets/ico/apple-touch-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="assets/ico/apple-touch-icon-180x180.png">
-	<link rel="icon" type="image/png" href="assets/ico/favicon-32x32.png" sizes="32x32">
-	<link rel="icon" type="image/png" href="assets/ico/favicon-194x194.png" sizes="194x194">
-	<link rel="icon" type="image/png" href="assets/ico/favicon-96x96.png" sizes="96x96">
-	<link rel="icon" type="image/png" href="assets/ico/android-chrome-192x192.png" sizes="192x192">
-	<link rel="icon" type="image/png" href="assets/ico/favicon-16x16.png" sizes="16x16">
-	<link rel="manifest" href="assets/ico/manifest.json">
-	<link rel="shortcut icon" href="assets/ico/favicon.ico">
-	<meta name="application-name" content="p2made">
-	<meta name="msapplication-TileColor" content="#ffcc00">
-	<meta name="msapplication-TileImage" content="assets/ico/mstile-144x144.png">
-	<meta name="msapplication-square70x70logo" content="assets/ico/mstile-70x70.png">
-	<meta name="msapplication-square150x150logo" content="assets/ico/mstile-150x150.png">
-	<meta name="msapplication-wide310x150logo" content="assets/ico/mstile-310x150.png">
-	<meta name="msapplication-square310x310logo" content="assets/ico/mstile-310x310.png">
-	<meta name="msapplication-config" content="assets/ico/browserconfig.xml">
-	<meta name="theme-color" content="#ffcc00">
-
-	<title>Home | P2Triangle</title>
-
-	<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
-	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
-	<link href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.6/animate.min.css" rel="stylesheet">
+	<title>Home | Triangle</title>
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/css/font-awesome.min.css" rel="stylesheet">
+	<link href="assets/css/animate.min.css" rel="stylesheet">
 	<link href="assets/css/lightbox.css" rel="stylesheet">
-	<link href="assets/css/triangle.min.css" rel="stylesheet">
-	<link href="assets/css/responsive.min.css" rel="stylesheet">
-	<link href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-social/4.9.0/bootstrap-social.min.css" rel="stylesheet">
+	<link href="assets/css/main.css" rel="stylesheet">
+	<link href="assets/css/responsive.css" rel="stylesheet">
+
 	<!--[if lt IE 9]>
-		<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
-		<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv-printshiv.min.js"></script>
-		<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+		<script src="assets/js/html5shiv.js"></script>
+		<script src="assets/js/respond.min.js"></script>
 	<![endif]-->
-</head>
+	<link rel="shortcut icon" href="assets/img/ico/favicon.ico">
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/img/ico/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/img/ico/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/img/ico/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" href="assets/img/ico/apple-touch-icon-57-precomposed.png">
+</head><!--/head-->
+
 <body>
 	<header id="header">
 		<div class="container">
@@ -61,7 +39,7 @@
 						</ul>
 					</div>
 				</div>
-			</div>
+			 </div>
 		</div>
 		<div class="navbar navbar-inverse" role="banner">
 			<div class="container">
@@ -73,11 +51,8 @@
 						<span class="icon-bar"></span>
 					</button>
 
-					<a class="navbar-brand" href="index.php">
-						<h1>
-							<img src="assets/logo-square.png" alt="logo">
-							P<sup>2</sup>Triangle
-						</h1>
+					<a class="navbar-brand" href="index.html">
+						<h1><img src="assets/img/logo.png" alt="logo"></h1>
 					</a>
 
 				</div>
@@ -86,46 +61,37 @@
 						<li class="active"><a href="index.php">Home</a></li>
 						<li class="dropdown"><a href="#">Pages <i class="fa fa-angle-down"></i></a>
 							<ul role="menu" class="sub-menu">
-								<li><a href="about.php">About</a></li>
-								<li><a href="about2.php">About 2</a></li>
+								<li><a href="aboutus.php">About</a></li>
+								<li><a href="aboutus2.php">About 2</a></li>
 								<li><a href="service.php">Services</a></li>
 								<li><a href="pricing.php">Pricing</a></li>
 								<li><a href="contact.php">Contact us</a></li>
 								<li><a href="contact2.php">Contact us 2</a></li>
 								<li><a href="404.php">404 error</a></li>
 								<li><a href="coming-soon.php">Coming Soon</a></li>
-								<li><a href="blank.php">Blank</a></li>
-								<li><a href="blank2.php">Blank 2</a></li>
 							</ul>
 						</li>
-						<li class="dropdown"><a href="blog-default.php">Blog <i class="fa fa-angle-down"></i></a>
+						<li class="dropdown"><a href="blog.php">Blog <i class="fa fa-angle-down"></i></a>
 							<ul role="menu" class="sub-menu">
-								<li><a href="blog-default.php">Blog Default</a></li>
-								<li><a href="blog-timeline.php">Timeline Blog</a></li>
-								<li><a href="blog-2cr.php">2 Columns + Right Sidebar</a></li>
-								<li><a href="blog-1cl.php">1 Column + Left Sidebar</a></li>
-								<li><a href="blog-masonary.php">Blog Masonary</a></li>
-								<li><a href="blog-details.php">Blog Details</a></li>
+								<li><a href="blog.php">Blog Default</a></li>
+								<li><a href="blogtwo.php">Timeline Blog</a></li>
+								<li><a href="blogone.php">2 Columns + Right Sidebar</a></li>
+								<li><a href="blogthree.php">1 Column + Left Sidebar</a></li>
+								<li><a href="blogfour.php">Blog Masonary</a></li>
+								<li><a href="blogdetails.php">Blog Details</a></li>
 							</ul>
 						</li>
-						<li class="dropdown"><a href="portfolio-default.php">Portfolio <i class="fa fa-angle-down"></i></a>
+						<li class="dropdown"><a href="portfolio.php">Portfolio <i class="fa fa-angle-down"></i></a>
 							<ul role="menu" class="sub-menu">
-								<li><a href="portfolio-default.php">Portfolio Default</a></li>
-								<li><a href="portfolio-isotope.php">Isotope 3 Columns + Right Sidebar</a></li>
-								<li><a href="portfolio-3cr.php">3 Columns + Right Sidebar</a></li>
-								<li><a href="portfolio-3cl.php">3 Columns + Left Sidebar</a></li>
-								<li><a href="portfolio-2c.php">2 Columns</a></li>
+								<li><a href="portfolio.php">Portfolio Default</a></li>
+								<li><a href="portfoliofour.php">Isotope 3 Columns + Right Sidebar</a></li>
+								<li><a href="portfolioone.php">3 Columns + Right Sidebar</a></li>
+								<li><a href="portfoliotwo.php">3 Columns + Left Sidebar</a></li>
+								<li><a href="portfoliothree.php">2 Columns</a></li>
 								<li><a href="portfolio-details.php">Portfolio Details</a></li>
 							</ul>
 						</li>
-						<li class="dropdown"><a href="portfolio-default.php">Members <i class="fa fa-angle-down"></i></a>
-							<ul role="menu" class="sub-menu">
-								<li><a href="signup.php">Signup</a></li>
-								<li><a href="login.php">Login</a></li>
-								<li><a href="profile.php">Profile</a></li>
-							</ul>
-						</li>
-						<li><a href="shortcodes.php">Shortcodes</a></li>
+						<li><a href="shortcodes.html ">Shortcodes</a></li>
 					</ul>
 				</div>
 				<div class="search">
@@ -138,7 +104,8 @@
 				</div>
 			</div>
 		</div>
-	</header><!--/#header-->
+	</header>
+	<!--/#header-->
 
 	<section id="home-slider">
 		<div class="container">
@@ -149,16 +116,17 @@
 						<p>Boudin doner frankfurter pig. Cow shank bresaola pork loin tri-tip tongue venison pork belly meatloaf short loin landjaeger biltong beef ribs shankle chicken andouille.</p>
 						<a href="#" class="btn btn-common">SIGN UP</a>
 					</div>
-					<img src="/images/slider/hill.png" class="slider-hill" alt="slider image">
-					<img src="/images/slider/house.png" class="slider-house" alt="slider image">
-					<img src="/images/slider/sun.png" class="slider-sun" alt="slider image">
-					<img src="/images/slider/birds1.png" class="slider-birds1" alt="slider image">
-					<img src="/images/slider/birds2.png" class="slider-birds2" alt="slider image">
+					<img src="assets/img/home/slider/hill.png" class="slider-hill" alt="slider image">
+					<img src="assets/img/home/slider/house.png" class="slider-house" alt="slider image">
+					<img src="assets/img/home/slider/sun.png" class="slider-sun" alt="slider image">
+					<img src="assets/img/home/slider/birds1.png" class="slider-birds1" alt="slider image">
+					<img src="assets/img/home/slider/birds2.png" class="slider-birds2" alt="slider image">
 				</div>
 			</div>
 		</div>
 		<div class="preloader"><i class="fa fa-sun-o fa-spin"></i></div>
-	</section><!--/#home-slider-->
+	</section>
+	<!--/#home-slider-->
 
 	<section id="services">
 		<div class="container">
@@ -166,7 +134,7 @@
 				<div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
 					<div class="single-service">
 						<div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
-							<img src="/images/icon-1.png" alt="">
+							<img src="assets/img/home/icon1.png" alt="">
 						</div>
 						<h2>Incredibly Responsive</h2>
 						<p>Ground round tenderloin flank shank ribeye. Hamkevin meatball swine. Cow shankle beef sirloin chicken ground round.</p>
@@ -175,7 +143,7 @@
 				<div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
 					<div class="single-service">
 						<div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
-							<img src="/images/icon-2.png" alt="">
+							<img src="assets/img/home/icon2.png" alt="">
 						</div>
 						<h2>Superior Typography</h2>
 						<p>Hamburger ribeye drumstick turkey, strip steak sausage ground round shank pastrami beef brisket pancetta venison.</p>
@@ -184,7 +152,7 @@
 				<div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
 					<div class="single-service">
 						<div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
-							<img src="/images/icon-3.png" alt="">
+							<img src="assets/img/home/icon3.png" alt="">
 						</div>
 						<h2>Swift Page Builder</h2>
 						<p>Venison tongue, salami corned beef ball tip meatloaf bacon. Fatback pork belly bresaola tenderloin bone pork kevin shankle.</p>
@@ -192,11 +160,12 @@
 				</div>
 			</div>
 		</div>
-	</section><!--/#services-->
+	</section>
+	<!--/#services-->
 
 	<section id="action" class="responsive">
 		<div class="vertical-center">
-			<div class="container">
+			 <div class="container">
 				<div class="row">
 					<div class="action take-tour">
 						<div class="col-sm-7 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
@@ -206,20 +175,21 @@
 						<div class="col-sm-5 text-center wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
 							<div class="tour-button">
 								<a href="#" class="btn btn-common">TAKE THE TOUR</a>
-							</div>
+							 </div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-   </section><!--/#action-->
+   </section>
+	<!--/#action-->
 
 	<section id="features">
 		<div class="container">
 			<div class="row">
 				<div class="single-features">
 					<div class="col-sm-5 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
-						<img src="/images/misc/image1.png" class="img-responsive" alt="">
+						<img src="assets/img/home/image1.png" class="img-responsive" alt="">
 					</div>
 					<div class="col-sm-6 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
 						<h2>Experienced and Enthusiastic</h2>
@@ -232,12 +202,12 @@
 						<P>Mollit eiusmod id chuck turducken laboris meatloaf pork loin tenderloin swine. Pancetta excepteur fugiat strip steak tri-tip. Swine salami eiusmod sint, ex id venison non. Fugiat ea jowl cillum meatloaf.</P>
 					</div>
 					<div class="col-sm-5 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
-						<img src="/images/misc/image2.png" class="img-responsive" alt="">
+						<img src="assets/img/home/image2.png" class="img-responsive" alt="">
 					</div>
 				</div>
 				<div class="single-features">
 					<div class="col-sm-5 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
-						<img src="/images/misc/image3.png" class="img-responsive" alt="">
+						<img src="assets/img/home/image3.png" class="img-responsive" alt="">
 					</div>
 					<div class="col-sm-6 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
 						<h2>Experienced and Enthusiastic</h2>
@@ -247,63 +217,64 @@
 			</div>
 		</div>
 	</section>
-	<!--/#features-->
+	 <!--/#features-->
 
 	<section id="clients">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
 					<div class="clients text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
-						<p><img src="/images/clients.png" class="img-responsive" alt=""></p>
+						<p><img src="assets/img/home/clients.png" class="img-responsive" alt=""></p>
 						<h1 class="title">Happy Clients</h1>
 						<p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br> Ut enim ad minim veniam, quis nostrud </p>
 					</div>
 					<div class="clients-logo wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
 						<div class="col-xs-3 col-sm-2">
-							<a href="#"><img src="/images/clients/1.png" class="img-responsive" alt=""></a>
+							<a href="#"><img src="assets/img/home/client1.png" class="img-responsive" alt=""></a>
 						</div>
 						<div class="col-xs-3 col-sm-2">
-							<a href="#"><img src="/images/clients/2.png" class="img-responsive" alt=""></a>
+							<a href="#"><img src="assets/img/home/client2.png" class="img-responsive" alt=""></a>
 						</div>
-						<div class="col-xs-3 col-sm-2">
-							<a href="#"><img src="/images/clients/3.png" class="img-responsive" alt=""></a>
+						 <div class="col-xs-3 col-sm-2">
+							<a href="#"><img src="assets/img/home/client3.png" class="img-responsive" alt=""></a>
 						</div>
-						<div class="col-xs-3 col-sm-2">
-							<a href="#"><img src="/images/clients/4.png" class="img-responsive" alt=""></a>
+						 <div class="col-xs-3 col-sm-2">
+							<a href="#"><img src="assets/img/home/client4.png" class="img-responsive" alt=""></a>
 						</div>
-						<div class="col-xs-3 col-sm-2">
-							<a href="#"><img src="/images/clients/5.png" class="img-responsive" alt=""></a>
+						 <div class="col-xs-3 col-sm-2">
+							<a href="#"><img src="assets/img/home/client5.png" class="img-responsive" alt=""></a>
 						</div>
-						<div class="col-xs-3 col-sm-2">
-							<a href="#"><img src="/images/clients/6.png" class="img-responsive" alt=""></a>
+						 <div class="col-xs-3 col-sm-2">
+							<a href="#"><img src="assets/img/home/client6.png" class="img-responsive" alt=""></a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</section><!--/#clients-->
+	 </section>
+	<!--/#clients-->
 
 	<footer id="footer">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12 text-center bottom-separator">
-					<img src="assets/under.png" class="img-responsive inline" alt="">
+					<img src="assets/img/home/under.png" class="img-responsive inline" alt="">
 				</div>
 				<div class="col-md-4 col-sm-6">
 					<div class="testimonial bottom">
 						<h2>Testimonial</h2>
 						<div class="media">
 							<div class="pull-left">
-								<a href="#"><img src="/images/people/profile-1.png" alt=""></a>
+								<a href="#"><img src="assets/img/home/profile1.png" alt=""></a>
 							</div>
 							<div class="media-body">
 								<blockquote>Nisi commodo bresaola, leberkas venison eiusmod bacon occaecat labore tail.</blockquote>
 								<h3><a href="#">- Jhon Kalis</a></h3>
 							</div>
-						</div>
+						 </div>
 						<div class="media">
 							<div class="pull-left">
-								<a href="#"><img src="/images/people/profile-2.png" alt=""></a>
+								<a href="#"><img src="assets/img/home/profile2.png" alt=""></a>
 							</div>
 							<div class="media-body">
 								<blockquote>Capicola nisi flank sed minim sunt aliqua rump pancetta leberkas venison eiusmod.</blockquote>
@@ -357,12 +328,13 @@
 				</div>
 			</div>
 		</div>
-	</footer><!--/#footer-->
+	</footer>
+	<!--/#footer-->
 
-	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-	<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"></script>
-	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.js"></script>
+	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="assets/js/lightbox.min.js"></script>
-	<script type="text/javascript" src="assets/js/triangle.min.js"></script>
+	<script type="text/javascript" src="assets/js/wow.min.js"></script>
+	<script type="text/javascript" src="assets/js/main.js"></script>
 </body>
 </html>

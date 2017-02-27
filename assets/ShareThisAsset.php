@@ -8,7 +8,7 @@
  * @license MIT
  */
 
-namespace p2made\theme\Triangle\assets;
+namespace p2m\theme\Triangle\assets;
 
 class ShareThisAsset extends \yii\web\AssetBundle
 {

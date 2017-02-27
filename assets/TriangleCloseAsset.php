@@ -8,13 +8,13 @@
  * @license MIT
  */
 
-namespace p2made\theme\Triangle\assets;
+namespace p2m\theme\Triangle\assets;
 
 class TriangleCloseAsset extends \yii\web\AssetBundle
 {
 	public $sourcePath = null;
 
 	public $depends = [
-		'p2made\assets\BootstrapSocialAsset',
+		'p2m\assets\BootstrapSocialAsset',
 	];
 }

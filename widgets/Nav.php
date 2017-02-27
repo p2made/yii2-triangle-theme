@@ -8,9 +8,9 @@
  * @license MIT
  */
 
-namespace p2made\theme\Triangle\widgets;
+namespace p2m\theme\Triangle\widgets;
 
-use p2made\theme\Triangle\widgets\Dropdown;
+use p2m\theme\Triangle\widgets\Dropdown;
 
 use Yii;
 use yii\base\InvalidConfigException;

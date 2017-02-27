@@ -8,7 +8,7 @@
  * @license MIT
  */
 
-namespace p2made\theme\Triangle\widgets;
+namespace p2m\theme\Triangle\widgets;
 
 use yii\base\InvalidConfigException;
 use yii\helpers\ArrayHelper;

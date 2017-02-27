@@ -8,7 +8,7 @@
  * @license MIT
  */
 
-namespace p2made\theme\Triangle\assets;
+namespace p2m\theme\Triangle\assets;
 
 class TriangleMulticolorAsset extends \yii\web\AssetBundle
 {
@@ -24,10 +24,7 @@ class TriangleMulticolorAsset extends \yii\web\AssetBundle
 	];
 
 	public $depends = [
-		'p2made\assets\JqueryAsset',
-		'p2made\assets\BootstrapAsset',
-		'p2made\assets\BootstrapPluginAsset',
-		'p2made\assets\FontAwesomeAsset',
-		'p2made\assets\AnimateAsset',
+		'p2m\assets\P2CoreAsset',
+		'p2m\assets\AnimateAsset',
 	];
 }
