@@ -1,8 +1,8 @@
 <?php
-$name	   = @trim(stripslashes($_POST['name'])); 
-$from	   = @trim(stripslashes($_POST['email'])); 
-$subject	= @trim(stripslashes($_POST['subject'])); 
-$message	= @trim(stripslashes($_POST['message'])); 
+$name	   = @trim(stripslashes($_POST['name']));
+$from	   = @trim(stripslashes($_POST['email']));
+$subject	= @trim(stripslashes($_POST['subject']));
+$message	= @trim(stripslashes($_POST['message']));
 $to   		= 'email@email.com';//replace with your email
 
 $headers   = array();

@@ -5,7 +5,7 @@
  * @copyright Copyright &copy; Pedro Plowman, 2017
  * @author Pedro Plowman
  * @link https://github.com/p2made
- * @package yii2-startbootstrap-themes
+ * @package yii2-triangle-theme
  * @license MIT
  */
 
@@ -13,34 +13,23 @@
 /* @var $content string */
 
 use yii\bootstrap\Html;
-use common\widgets\Alert;
 
-p2m\SB\assets\ModernBusinessAsset::register($this);
+p2m\SB\assets\TriangleMulticolorAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
 <html lang="<?= Yii::$app->language ?>">
 <head>
-	<?= $this->render('_header.php', []) ?>
+	<?= $this->render('_head.php') ?>
 </head>
 <body>
-<?php $this->beginBody() ?>
-<?= Alert::widget() ?>
+	<?php $this->beginBody() ?>
 
-<?= $this->render('_navigation.php') ?>
+	<?= $this->render('_navigation.php') ?>
 
-<?= $content ?>
+	<?= $content ?>
 
-<?php $this->endBody() ?>
-
-<!-- Script to Activate the Carousel -->
-<script>
-$(document).ready(function(){
-	$('.carousel').carousel({
-		interval: 5000 //changes the speed
-	})
-});
-</script>
+	<?php $this->endBody() ?>
 </body>
 </html>
 <?php $this->endPage() ?>

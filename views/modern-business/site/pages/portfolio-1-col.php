@@ -5,7 +5,7 @@
  * @copyright Copyright &copy; Pedro Plowman, 2017
  * @author Pedro Plowman
  * @link https://github.com/p2made
- * @package yii2-startbootstrap-themes
+ * @package yii2-triangle-theme
  * @license MIT
  */
 

@@ -7,19 +7,15 @@
 	<meta name="author" content="">
 	<title>404 Error | Triangle</title>
 	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
-	<link href="assets/css/font-awesome.min.css" rel="stylesheet"> 
+	<link href="assets/css/font-awesome.min.css" rel="stylesheet">
 	<link href="assets/css/main.css" rel="stylesheet">
 	<link href="assets/css/responsive.css" rel="stylesheet">
 
-	<!--[if lt IE 9]>
-		<script src="assets/js/html5shiv.js"></script>
-		<script src="assets/js/respond.min.js"></script>
-	<![endif]-->	   
-	<link rel="shortcut icon" href="assets/img/ico/favicon.ico">
-	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/img/ico/apple-touch-icon-144-precomposed.png">
-	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/img/ico/apple-touch-icon-114-precomposed.png">
-	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/img/ico/apple-touch-icon-72-precomposed.png">
-	<link rel="apple-touch-icon-precomposed" href="assets/img/ico/apple-touch-icon-57-precomposed.png">
+	<link href="assets/img/ico/favicon.ico" rel="shortcut icon">
+	<link href="assets/img/ico/apple-touch-icon-144-precomposed.png" rel="apple-touch-icon-precomposed" sizes="144x144">
+	<link href="assets/img/ico/apple-touch-icon-114-precomposed.png" rel="apple-touch-icon-precomposed" sizes="114x114">
+	<link href="assets/img/ico/apple-touch-icon-72-precomposed.png" rel="apple-touch-icon-precomposed" sizes="72x72">
+	<link href="assets/img/ico/apple-touch-icon-57-precomposed.png" rel="apple-touch-icon-precomposed">
 </head><!--/head-->
 
 <body>
@@ -30,8 +26,8 @@
 					<div class="col-sm-12">
 						<div class="text-center">
 							<div class="bg-404">
-								<div class="error-image">								
-									<img class="img-responsive" src="assets/img/404.png" alt="">  
+								<div class="error-image">
+									<img class="img-responsive" src="assets/img/404.png" alt="">
 								</div>
 							</div>
 							<h2>PAGE NOT FOUND</h2>
@@ -48,11 +44,11 @@
 			</div>
 		</div>
 	</section>
-	
 
-	<script type="text/javascript" src="assets/js/jquery.js"></script>
-	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="assets/js/wow.min.js"></script>
-	<script type="text/javascript" src="assets/js/main.js"></script>
+
+	<script src="assets/js/jquery.js" type="text/javascript"></script>
+	<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="assets/js/wow.min.js" type="text/javascript"></script>
+	<script src="assets/js/main.js" type="text/javascript"></script>
 </body>
 </html>

@@ -5,7 +5,7 @@
  * @copyright Copyright &copy; Pedro Plowman, 2017
  * @author Pedro Plowman
  * @link https://github.com/p2made
- * @package yii2-startbootstrap-themes
+ * @package yii2-triangle-theme
  * @license MIT
  */
 
@@ -17,56 +17,34 @@ use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 
 $this->title = 'Request password reset';
-
-$fieldOptions1 = [
-	'options' => ['class' => 'form-group has-feedback', 'autofocus' => 'autofocus'],
-	'inputTemplate' => "{input}<i class='glyphicon glyphicon-envelope form-control-feedback'></i>",
-];
-
-$fieldOptions2 = [
-	'options' => ['class' => 'form-group has-feedback'],
-	'inputTemplate' => "{input}<i class='glyphicon glyphicon-lock form-control-feedback'></i>",
-];
 ?>
+<header>
+	<div class="container">
+		<div class="intro-text">
+			<h1>
+				<?= Html::encode($this->title) ?>
+			</h1>
+			<div class="row">
+				<div class="col-lg-6 col-lg-offset-3">
+					<div class="panel text-info text-left">
+						<div class="panel-heading">
+							Please fill out your email. A link to reset password will be sent there.
+						</div>
+						<div class="panel-body">
+							<?php $form = ActiveForm::begin(['id' => 'request-password-reset-form']); ?>
 
-<div class="container">
+								<?= $form->field($model, 'email')->textInput(['autofocus' => true]) ?>
 
-	<!-- Page Heading -->
-	<div class="row">
-		<div class="col-lg-12">
-			<h1 class="page-header"><?= Html::encode($this->title) ?></h1>
-		</div>
-	</div>
-	<!-- /.row -->
+								<div class="form-group">
+									<?= Html::submitButton('Send', ['class' => 'btn btn-primary']) ?>
+								</div>
 
-	<div class="row">
-		<div class="col-lg-6 col-lg-offset-3">
-			<div class="panel panel-info">
-				<div class="panel-heading">
-					Please fill out your email. A link to reset password will be sent there.
-				</div>
-				<div class="panel-body">
-					<?php $form = ActiveForm::begin(['id' => 'request-password-reset-form']); ?>
-
-					<?= $form->field($model, 'email')->textInput(['autofocus' => true]) ?>
-
-					<div class="form-group">
-						<?= Html::submitButton('Send', ['class' => 'btn btn-primary']) ?>
+							<?php ActiveForm::end(); ?>
+						</div>
 					</div>
-
-					<?php ActiveForm::end(); ?>
 				</div>
 			</div>
 		</div>
 	</div>
-
-	<?= $this->render('_footer.php') ?>
-
-	<!-- Page Code Location - remove in production -->
-	<div class="row">
-		<div class="col-lg-12">
-			<code><?= __FILE__ ?></code>
-		</div>
-	</div>
-
-</div>
+</header>
+<?= $this->render('_footer.php') ?>

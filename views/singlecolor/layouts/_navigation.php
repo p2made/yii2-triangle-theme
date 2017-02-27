@@ -5,7 +5,7 @@
  * @copyright Copyright &copy; Pedro Plowman, 2017
  * @author Pedro Plowman
  * @link https://github.com/p2made
- * @package yii2-startbootstrap-themes
+ * @package yii2-triangle-theme
  * @license MIT
  */
 
@@ -15,51 +15,47 @@ use yii\bootstrap\NavBar;
 use yii\helpers\ArrayHelper;
 use p2m\helpers\FA;
 
-NavBar::begin([
-	'brandLabel' => 'P2 Modern Business',
-	'brandUrl' => Yii::$app->homeUrl,
-	'options' => [
-		'class' => 'navbar navbar-inverse navbar-fixed-top',
-	],
-]);
+$linkOptions = ['class' => 'page-scroll'];
+$dropOptions = ['class' => 'navbar-inverse'];
 $menuItems = [
-	['label' => 'About', 'url' => ['/site/about']],
-	['label' => 'Services', 'url' =>['/site/page', 'view' => 'services']],
-	['label' => 'Contact', 'url' => ['/site/contact']],
-	['label' => 'Portfolio', 'url' =>'#', 'items' => [
-		['label' => '1 Column Portfolio', 'url' =>['/site/page', 'view' => 'portfolio-1-col']],
-		['label' => '2 Column Portfolio', 'url' =>['/site/page', 'view' => 'portfolio-2-col']],
-		['label' => '3 Column Portfolio', 'url' =>['/site/page', 'view' => 'portfolio-3-col']],
-		['label' => '4 Column Portfolio', 'url' =>['/site/page', 'view' => 'portfolio-4-col']],
-		['label' => 'Single Portfolio Item', 'url' =>['/site/page', 'view' => 'portfolio-item']],
-	]],
-	['label' => 'Blog', 'url' =>'#', 'items' => [
-		['label' => 'Blog Home 1', 'url' =>['/site/page', 'view' => 'blog-home-1']],
-		['label' => 'Blog Home 2', 'url' =>['/site/page', 'view' => 'blog-home-2']],
-		['label' => 'Blog Post', 'url' =>['/site/page', 'view' => 'blog-post']],
-	]],
-	['label' => 'Other Pages', 'url' =>'#', 'items' => [
-		['label' => 'Full Width Page', 'url' =>['/site/page', 'view' => 'full-width']],
-		['label' => 'Sidebar Page', 'url' =>['/site/page', 'view' => 'sidebar']],
-		['label' => 'FAQ', 'url' =>['/site/page', 'view' => 'faq']],
-		['label' => 'Pricing Table', 'url' =>['/site/page', 'view' => 'pricing']],
-		['label' => '404', 'url' =>['/site/page', 'view' => '404']],
-	]],
+	['label' => '', 'url' =>'#page-top', 'options' => ['class' => 'hidden']],
+	['label' => 'Services', 'url' =>'#services', 'linkOptions' => $linkOptions],
+	['label' => 'Portfolio', 'url' =>'#portfolio', 'linkOptions' => $linkOptions],
+	['label' => 'About', 'url' =>'#about', 'linkOptions' => $linkOptions],
+	['label' => 'Team', 'url' =>'#team', 'linkOptions' => $linkOptions],
+	['label' => 'Contact', 'url' =>'#contact', 'linkOptions' => $linkOptions],
 ];
 if (Yii::$app->user->isGuest) {
-	$menuItems[] = ['label' => 'Users', 'url' =>'#', 'items' => [
-		['label' => 'Signup', 'url' => ['/site/signup']],
-		['label' => 'Login', 'url' => ['/site/login']],
+	$menuItems[] = ['label' => 'Users', 'url' =>'#', 'linkOptions' => $linkOptions, 'items' => [
+		['label' => 'Login', 'url' => ['/site/login'], 'options' => $dropOptions],
+		['label' => 'Signup', 'url' => ['/site/signup'], 'options' => $dropOptions],
 	]];
 } else {
-	$menuItems[] = [
-		'label' => 'Logout (' . Yii::$app->user->identity->username . ')',
-		'url' => ['/site/logout'],
-		'linkOptions' => ['data-method' => 'post']
-	];
+	$menuItems[] = '<li>'
+		. Html::beginForm(['/site/logout'], 'post')
+		. Html::submitButton(
+			'Logout (' . Yii::$app->user->identity->username . ')',
+			['class' => 'btn btn-link logout']
+		)
+		. Html::endForm()
+		. '</li>';
 }
+?>
+<nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+	<div class="container">
+		<div class="navbar-header page-scroll">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span> Menu <?= FA::icon('bars') ?>
+			</button>
+			<a class="navbar-brand page-scroll" href="#page-top">P2 Agency</a>
+		</div>
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+<?php
 echo Nav::widget([
 	'options' => ['class' => 'navbar-nav navbar-right'],
 	'items' => $menuItems,
 ]);
-NavBar::end();
+?>
+		</div>
+	</div>
+</nav>
