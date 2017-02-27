@@ -30,15 +30,15 @@ jQuery(function($) {'use strict';
 		}
 
 		var $portfolio_selectors = $('.portfolio-filter >li>a');
-		
+
 		if($portfolio_selectors.length) {
-			
+
 			var $portfolio = $('.portfolio-items');
 			$portfolio.isotope({
 				itemSelector : '.portfolio-item',
 				layoutMode : 'fitRows'
 			});
-			
+
 			$portfolio_selectors.on('click', function(){
 				$portfolio_selectors.removeClass('active');
 				$(this).addClass('active');
@@ -57,7 +57,7 @@ jQuery(function($) {'use strict';
 		options = $.extend({}, options || {}, $this.data('countToOptions') || {});
 		$this.countTo(options);
 	}
-		
+
 	// Search
 	$('.fa-search').on('click', function() {
 		$('.field-toggle').fadeToggle(200);
@@ -88,8 +88,8 @@ jQuery(function($) {'use strict';
 
 		map = new GMaps({
 			el: '#gmap',
-			lat: 43.04446,
-			lng: -76.130791,
+			lat: -26.627892,
+			lng: 152.9572521,
 			scrollwheel:false,
 			zoom: 16,
 			zoomControl : false,

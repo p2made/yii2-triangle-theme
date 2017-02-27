@@ -14,16 +14,14 @@ use yii\bootstrap\Html;
 /* @var $this \yii\web\View */
 /* @var $content string */
 
-$assetDir = Yii::$app->assetManager->getPublishedUrl(
-	'@vendor/p2made/yii2-triangle-theme/assets/lib/multicolor'
-);
 ?>
 <meta charset="<?= Yii::$app->charset ?>"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <?= Html::csrfMetaTags() ?>
-<title><?= Html::encode($this->title) ?> | P2 Triangle</title>
+<title><?= Html::encode($this->title) ?> | P2Triangle</title>
 <?php $this->head() ?>
+
 <link href="<?= $assetDir ?>/ico/favicon.ico" rel="shortcut icon" type="image/x-icon">
 <link href="<?= $assetDir ?>/ico/favicon.png" rel="shortcut icon" type="image/x-icon">
 <link href="<?= $assetDir ?>/ico/favicon-32x32.png" rel="icon" type="image/png" sizes="32x32">

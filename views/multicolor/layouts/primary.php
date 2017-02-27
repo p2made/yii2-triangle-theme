@@ -14,18 +14,25 @@
 
 use yii\bootstrap\Html;
 
-p2m\SB\assets\TriangleMulticolorAsset::register($this);
+p2m\theme\Triangle\assets\TriangleMulticolorAsset::register($this);
+
+$assetDir = Yii::$app->assetManager->getPublishedUrl(
+	'@vendor/p2made/yii2-triangle-theme/assets/lib/multicolor'
+);
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
 <html lang="<?= Yii::$app->language ?>">
 <head>
-	<?= $this->render('_head.php') ?>
+	<?= $this->render('_head.php', ['assetDir' => $assetDir]) ?>
 </head>
 <body>
 	<?php $this->beginBody() ?>
 
-	<?= $this->render('_navigation.php') ?>
+	<header id="header">
+		<?= $this->render('_social-pills.php') ?>
+		<?= $this->render('_navigation.php', ['assetDir' => $assetDir]) ?>
+	</header>
 
 	<?= $content ?>
 

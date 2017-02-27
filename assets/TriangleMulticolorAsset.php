@@ -29,7 +29,7 @@ class TriangleMulticolorAsset extends \p2m\assets\base\P2AssetBundle
 				'css/responsive.min.css',
 			],
 			'js' => [
-				'js/triangle.min.js',
+				'js/triangle.js',
 			],
 		],
 		'depends' => [

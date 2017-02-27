@@ -1,29 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="author" content="">
-	<title>Coming Soon | Triangle</title>
-	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
-	<link href="assets/css/font-awesome.min.css" rel="stylesheet">
-	<link href="assets/css/main.css" rel="stylesheet">
-	<link href="assets/css/responsive.css" rel="stylesheet">
+<?php
+/**
+ * coming-soon.php
+ *
+ * @copyright Copyright &copy; Pedro Plowman, 2017
+ * @author Pedro Plowman
+ * @link https://github.com/p2made
+ * @package yii2-triangle-theme
+ * @license MIT
+ */
 
-	<link href="assets/img/ico/favicon.ico" rel="shortcut icon">
-	<link href="assets/img/ico/apple-touch-icon-144-precomposed.png" rel="apple-touch-icon-precomposed" sizes="144x144">
-	<link href="assets/img/ico/apple-touch-icon-114-precomposed.png" rel="apple-touch-icon-precomposed" sizes="114x114">
-	<link href="assets/img/ico/apple-touch-icon-72-precomposed.png" rel="apple-touch-icon-precomposed" sizes="72x72">
-	<link href="assets/img/ico/apple-touch-icon-57-precomposed.png" rel="apple-touch-icon-precomposed">
-</head><!--/head-->
+/* @var $this yii\web\View */
 
-<body>
+use p2m\helpers\FA;
+
+$this->title = 'About Us';
+
+$assetDir = Yii::$app->assetManager->getPublishedUrl(
+	'@vendor/p2made/yii2-triangle-theme/assets/lib/multicolor'
+);
+
+p2m\assets\WowAsset::register($this);
+?>
+<div id="content-wrapper">
+
 	<div class="logo-image">
 	   <a href="index.php"><img class="img-responsive" src="assets/img/logo.png" alt=""> </a>
 	</div>
-	 <section id="coming-soon">
-		 <div class="container">
+	<section id="coming-soon">
+		<div class="container">
 			<div class="row">
 				<div class="col-sm-8 col-sm-offset-2">
 					<div class="text-center coming-content">
@@ -95,12 +99,6 @@
 		</div>
 	</section>
 
-
-	<script src="assets/js/jquery.js" type="text/javascript"></script>
-	<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
-	<script src="assets/js/coundown-timer.js" type="text/javascript"></script>
-	<script src="assets/js/wow.min.js" type="text/javascript"></script>
-	<script src="assets/js/main.js" type="text/javascript"></script>
 	<script type="text/javascript">
 			//Countdown js
 		 $("#countdown").countdown({
@@ -112,5 +110,4 @@
 		});
 	</script>
 
-</body>
-</html>
+</div>
