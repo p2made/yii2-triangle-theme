@@ -14,6 +14,9 @@ use yii\bootstrap\Html;
 /* @var $this \yii\web\View */
 /* @var $content string */
 
+$assetDir = Yii::$app->assetManager->getPublishedUrl(
+	'@vendor/p2made/yii2-triangle-theme/assets/lib/shared'
+);
 ?>
 <meta charset="<?= Yii::$app->charset ?>"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">

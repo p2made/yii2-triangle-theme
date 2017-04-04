@@ -15,6 +15,10 @@ use yii\bootstrap\NavBar;
 use yii\helpers\ArrayHelper;
 use p2m\helpers\FA;
 
+$assetDir = Yii::$app->assetManager->getPublishedUrl(
+	'@vendor/p2made/yii2-triangle-theme/assets/lib/multicolor'
+);
+
 $brandLabel = '<h1><img src="' . $assetDir . '/img/logo-square.png" alt="logo"> P<sup>2</sup>Triangle</h1>';
 
 $menuItems = [
@@ -31,10 +35,10 @@ $menuItems = [
 	]],
 	['label' => 'Blog ', 'url' =>'#', 'items' => [
 		['label' => 'Blog Default', 'url' =>['/site/page', 'view' => 'blog']],
-		['label' => 'Timeline Blog', 'url' =>['/site/page', 'view' => 'blogtwo']],
-		['label' => '2 Columns + Right Sidebar', 'url' =>['/site/page', 'view' => 'blogone']],
-		['label' => '1 Column + Left Sidebar', 'url' =>['/site/page', 'view' => 'blogthree']],
-		['label' => 'Blog Masonary', 'url' =>['/site/page', 'view' => 'blogfour']],
+		['label' => 'Timeline Blog', 'url' =>['/site/page', 'view' => 'blog-2']],
+		['label' => '2 Columns + Right Sidebar', 'url' =>['/site/page', 'view' => 'blog-3']],
+		['label' => '1 Column + Left Sidebar', 'url' =>['/site/page', 'view' => 'blog-4']],
+		['label' => 'Blog Masonary', 'url' =>['/site/page', 'view' => 'blog-5']],
 		['label' => 'Blog Details', 'url' =>['/site/page', 'view' => 'blogdetails']],
 	]],
 	['label' => 'Portfolio ', 'url' =>'#', 'items' => [

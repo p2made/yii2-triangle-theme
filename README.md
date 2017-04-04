@@ -1,4 +1,4 @@
-P2Triangle Theme v2.0.0
+P2Triangle Theme v2.0.1
 ================
 
 Triangle Theme from [ShapeBootstrap](http://shapebootstrap.net) as a frontend UI for Yii 2 Framework.

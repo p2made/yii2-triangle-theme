@@ -45,5 +45,6 @@ class _ExampleAsset extends \p2m\assets\base\P2AssetBundle
 
 /*
 		@vendor/p2made/yii2-triangle-theme/assets/lib/multicolor
+		@vendor/p2made/yii2-triangle-theme/assets/lib/shared
 		@vendor/p2made/yii2-triangle-theme/assets/lib/singlecolor
 */
