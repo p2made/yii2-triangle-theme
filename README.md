@@ -1,4 +1,4 @@
-P2Triangle Theme v0.5.5
+P2Triangle Theme v0.6.0
 ================
 
 Triangle Theme from [ShapeBootstrap](http://shapebootstrap.net) as a frontend UI for Yii 2 Framework.
@@ -17,19 +17,19 @@ The preferred way to install P2Triangle Theme is through [composer](http://getco
 Depending on your composer installation, run *one* of the following commands:
 
 ```
-composer require --prefer-dist p2made/yii2-triangle-theme "^0.3.18"
+composer require --prefer-dist p2made/yii2-triangle-theme "^0.6"
 ```
 
 or
 
 ```
-php composer.phar require --prefer-dist p2made/yii2-triangle-theme "^0.3.18"
+php composer.phar require --prefer-dist p2made/yii2-triangle-theme "^0.6"
 ```
 
 Alternatively add:
 
 ```
-"p2made/yii2-triangle-theme": "^0.3.18"
+"p2made/yii2-triangle-theme": "^0.6"
 ```
 
 to the requires section of your `composer.json` file & P2Triangle Theme will be installed next time you run `composer update`.
