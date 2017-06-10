@@ -1,5 +1,13 @@
-P2Triangle Theme v0.7.0
+P2Triangle Theme v0.7.1
 ================
+
+[![License](https://poser.pugx.org/p2made/yii2-triangle-theme/license)](https://packagist.org/packages/p2made/yii2-p2y2-things-demo)
+[![Total Downloads](https://poser.pugx.org/p2made/yii2-triangle-theme/downloads)](https://packagist.org/packages/p2made/yii2-p2y2-things-demo)
+[![Monthly Downloads](https://poser.pugx.org/p2made/yii2-triangle-theme/d/monthly)](https://packagist.org/packages/p2made/yii2-p2y2-things)
+[![Latest Stable Version](https://poser.pugx.org/p2made/yii2-triangle-theme/v/stable)](https://packagist.org/packages/p2made/yii2-p2y2-things-demo)
+[![Latest Unstable Version](https://poser.pugx.org/p2made/yii2-triangle-theme/v/unstable)](https://packagist.org/packages/p2made/yii2-p2y2-things-demo)
+
+---
 
 Triangle Theme from [ShapeBootstrap](http://shapebootstrap.net) as a frontend UI for Yii 2 Framework.
 
@@ -17,19 +25,19 @@ The preferred way to install P2Triangle Theme is through [composer](http://getco
 Depending on your composer installation, run *one* of the following commands:
 
 ```
-composer require --prefer-dist p2made/yii2-triangle-theme "^0.6"
+composer require --prefer-dist p2made/yii2-triangle-theme "^0.7"
 ```
 
 or
 
 ```
-php composer.phar require --prefer-dist p2made/yii2-triangle-theme "^0.6"
+php composer.phar require --prefer-dist p2made/yii2-triangle-theme "^0.7"
 ```
 
 Alternatively add:
 
 ```
-"p2made/yii2-triangle-theme": "^0.6"
+"p2made/yii2-triangle-theme": "^0.7"
 ```
 
 to the requires section of your `composer.json` file & P2Triangle Theme will be installed next time you run `composer update`.
