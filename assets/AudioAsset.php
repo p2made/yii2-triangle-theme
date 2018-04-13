@@ -21,7 +21,7 @@ namespace p2m\theme\Triangle\assets;
 
 class AudioAsset extends \p2m\assets\base\P2AssetBundle
 {
-	private $resourceData = array(
+	protected $resourceData = array(
 		'published' => [
 			'sourcePath' => '@vendor/p2made/yii2-triangle-theme/assets/lib/shared',
 			'css' => [],

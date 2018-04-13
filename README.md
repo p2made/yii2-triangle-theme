@@ -1,4 +1,4 @@
-P2Triangle Theme v0.7.1
+P2Triangle Theme v0.8.0
 ================
 
 [![License](https://poser.pugx.org/p2made/yii2-triangle-theme/license)](https://packagist.org/packages/p2made/yii2-p2y2-things-demo)
@@ -25,19 +25,19 @@ The preferred way to install P2Triangle Theme is through [composer](http://getco
 Depending on your composer installation, run *one* of the following commands:
 
 ```
-composer require --prefer-dist p2made/yii2-triangle-theme "^0.7"
+composer require --prefer-dist p2made/yii2-triangle-theme "^0.8"
 ```
 
 or
 
 ```
-php composer.phar require --prefer-dist p2made/yii2-triangle-theme "^0.7"
+php composer.phar require --prefer-dist p2made/yii2-triangle-theme "^0.8"
 ```
 
 Alternatively add:
 
 ```
-"p2made/yii2-triangle-theme": "^0.7"
+"p2made/yii2-triangle-theme": "^0.8"
 ```
 
 to the requires section of your `composer.json` file & P2Triangle Theme will be installed next time you run `composer update`.

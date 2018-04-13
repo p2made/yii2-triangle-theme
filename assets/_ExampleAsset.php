@@ -21,7 +21,7 @@ namespace p2m\theme\Triangle\assets;
 
 class _ExampleAsset extends \p2m\assets\base\P2AssetBundle
 {
-	private $resourceData = array(
+	protected $resourceData = array(
 		'published' => [
 			'sourcePath' => '@path/to/assets/folder',
 			'css' => [
